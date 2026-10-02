@@ -13,6 +13,7 @@
 ├── study_jiwon/                   # 허지원
 │   ├── day_1_jiwon.ipynb          # Day 1: 데이터 로드, EDA 1~5, 데이터 점검, 모델 설계 전략
 │   ├── day_2_jiwon.ipynb          # Day 2: 모델 개발 및 평가
+│   ├── figures/                   # 두 노트북의 그림 (day1_F1 ~ F5: EDA 1~5, day1_M: 설계 전략, day2_10-*: 오류 분석)
 │   └── results/
 │       ├── model_performance.csv  # 성능 표 (과제 Format)
 │       ├── metrics_by_set.csv     # 보조 지표: RMSE · MAPE · bias, 기준선 대비
