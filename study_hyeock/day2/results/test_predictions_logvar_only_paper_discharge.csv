@@ -1,0 +1,997 @@
+feature_set,model,cell_id,batch,y,pred
+logvar_only,Dummy (평균),B2_00,B2,477.0,774.9008786431996
+logvar_only,Dummy (평균),B2_01,B2,491.0,774.9008786431996
+logvar_only,Dummy (평균),B2_02,B2,424.0,774.9008786431996
+logvar_only,Dummy (평균),B2_03,B2,499.0,774.9008786431996
+logvar_only,Dummy (평균),B2_04,B2,444.0,774.9008786431996
+logvar_only,Dummy (평균),B2_05,B2,416.0,774.9008786431996
+logvar_only,Dummy (평균),B2_06,B2,393.0,774.9008786431996
+logvar_only,Dummy (평균),B2_07,B2,777.0,774.9008786431996
+logvar_only,Dummy (평균),B2_08,B2,904.0,774.9008786431996
+logvar_only,Dummy (평균),B2_09,B2,791.0,774.9008786431996
+logvar_only,Dummy (평균),B2_10,B2,492.0,774.9008786431996
+logvar_only,Dummy (평균),B2_11,B2,449.0,774.9008786431996
+logvar_only,Dummy (평균),B2_12,B2,466.0,774.9008786431996
+logvar_only,Dummy (평균),B2_13,B2,460.0,774.9008786431996
+logvar_only,Dummy (평균),B2_14,B2,426.0,774.9008786431996
+logvar_only,Dummy (평균),B2_15,B2,396.0,774.9008786431996
+logvar_only,Dummy (평균),B2_16,B2,472.0,774.9008786431996
+logvar_only,Dummy (평균),B2_17,B2,471.0,774.9008786431996
+logvar_only,Dummy (평균),B2_18,B2,449.0,774.9008786431996
+logvar_only,Dummy (평균),B2_19,B2,392.0,774.9008786431996
+logvar_only,Dummy (평균),B2_20,B2,489.0,774.9008786431996
+logvar_only,Dummy (평균),B2_21,B2,408.0,774.9008786431996
+logvar_only,Dummy (평균),B2_24,B2,514.0,774.9008786431996
+logvar_only,Dummy (평균),B2_25,B2,493.0,774.9008786431996
+logvar_only,Dummy (평균),B2_26,B2,450.0,774.9008786431996
+logvar_only,Dummy (평균),B2_27,B2,474.0,774.9008786431996
+logvar_only,Dummy (평균),B2_28,B2,437.0,774.9008786431996
+logvar_only,Dummy (평균),B2_29,B2,452.0,774.9008786431996
+logvar_only,Dummy (평균),B2_30,B2,412.0,774.9008786431996
+logvar_only,Dummy (평균),B2_31,B2,425.0,774.9008786431996
+logvar_only,Dummy (평균),B2_32,B2,809.0,774.9008786431996
+logvar_only,Dummy (평균),B2_33,B2,1140.0,774.9008786431996
+logvar_only,Dummy (평균),B2_34,B2,1186.0,774.9008786431996
+logvar_only,Dummy (평균),B2_41,B2,442.0,774.9008786431996
+logvar_only,Dummy (평균),B2_42,B2,474.0,774.9008786431996
+logvar_only,Dummy (평균),B2_43,B2,1029.0,774.9008786431996
+logvar_only,Dummy (평균),B2_44,B2,841.0,774.9008786431996
+logvar_only,Dummy (평균),B2_45,B2,997.0,774.9008786431996
+logvar_only,Dummy (평균),B2_46,B2,503.0,774.9008786431996
+logvar_only,Dummy (평균),B3_00,B3,1009.0,774.9008786431996
+logvar_only,Dummy (평균),B3_01,B3,1063.0,774.9008786431996
+logvar_only,Dummy (평균),B3_02,B3,1267.0,774.9008786431996
+logvar_only,Dummy (평균),B3_03,B3,1115.0,774.9008786431996
+logvar_only,Dummy (평균),B3_04,B3,1048.0,774.9008786431996
+logvar_only,Dummy (평균),B3_05,B3,828.0,774.9008786431996
+logvar_only,Dummy (평균),B3_06,B3,667.0,774.9008786431996
+logvar_only,Dummy (평균),B3_07,B3,1836.0,774.9008786431996
+logvar_only,Dummy (평균),B3_08,B3,828.0,774.9008786431996
+logvar_only,Dummy (평균),B3_09,B3,1039.0,774.9008786431996
+logvar_only,Dummy (평균),B3_10,B3,1078.0,774.9008786431996
+logvar_only,Dummy (평균),B3_11,B3,817.0,774.9008786431996
+logvar_only,Dummy (평균),B3_12,B3,932.0,774.9008786431996
+logvar_only,Dummy (평균),B3_13,B3,816.0,774.9008786431996
+logvar_only,Dummy (평균),B3_14,B3,858.0,774.9008786431996
+logvar_only,Dummy (평균),B3_15,B3,876.0,774.9008786431996
+logvar_only,Dummy (평균),B3_16,B3,1638.0,774.9008786431996
+logvar_only,Dummy (평균),B3_17,B3,1315.0,774.9008786431996
+logvar_only,Dummy (평균),B3_18,B3,1146.0,774.9008786431996
+logvar_only,Dummy (평균),B3_19,B3,1155.0,774.9008786431996
+logvar_only,Dummy (평균),B3_20,B3,813.0,774.9008786431996
+logvar_only,Dummy (평균),B3_21,B3,772.0,774.9008786431996
+logvar_only,Dummy (평균),B3_22,B3,1002.0,774.9008786431996
+logvar_only,Dummy (평균),B3_24,B3,825.0,774.9008786431996
+logvar_only,Dummy (평균),B3_25,B3,989.0,774.9008786431996
+logvar_only,Dummy (평균),B3_26,B3,1028.0,774.9008786431996
+logvar_only,Dummy (평균),B3_27,B3,850.0,774.9008786431996
+logvar_only,Dummy (평균),B3_28,B3,541.0,774.9008786431996
+logvar_only,Dummy (평균),B3_29,B3,858.0,774.9008786431996
+logvar_only,Dummy (평균),B3_30,B3,935.0,774.9008786431996
+logvar_only,Dummy (평균),B3_31,B3,731.0,774.9008786431996
+logvar_only,Dummy (평균),B3_33,B3,1284.0,774.9008786431996
+logvar_only,Dummy (평균),B3_34,B3,1158.0,774.9008786431996
+logvar_only,Dummy (평균),B3_35,B3,1093.0,774.9008786431996
+logvar_only,Dummy (평균),B3_36,B3,923.0,774.9008786431996
+logvar_only,Dummy (평균),B3_37,B3,1390.0,774.9008786431996
+logvar_only,Dummy (평균),B3_38,B3,1935.0,774.9008786431996
+logvar_only,Dummy (평균),B3_39,B3,1156.0,774.9008786431996
+logvar_only,Dummy (평균),B3_40,B3,796.0,774.9008786431996
+logvar_only,Dummy (평균),B3_41,B3,786.0,774.9008786431996
+logvar_only,Dummy (평균),B3_42,B3,1642.0,774.9008786431996
+logvar_only,Dummy (평균),B3_43,B3,1046.0,774.9008786431996
+logvar_only,Dummy (평균),B3_44,B3,940.0,774.9008786431996
+logvar_only,Dummy (평균),B3_45,B3,1801.0,774.9008786431996
+logvar_only,Linear,B2_00,B2,477.0,629.4923849933265
+logvar_only,Linear,B2_01,B2,491.0,553.028078323216
+logvar_only,Linear,B2_02,B2,424.0,617.9593430190528
+logvar_only,Linear,B2_03,B2,499.0,633.3725425652964
+logvar_only,Linear,B2_04,B2,444.0,528.7668251279631
+logvar_only,Linear,B2_05,B2,416.0,478.27777159691465
+logvar_only,Linear,B2_06,B2,393.0,648.1943302953397
+logvar_only,Linear,B2_07,B2,777.0,1047.763841271717
+logvar_only,Linear,B2_08,B2,904.0,959.0578919926859
+logvar_only,Linear,B2_09,B2,791.0,1131.826276310272
+logvar_only,Linear,B2_10,B2,492.0,614.0180730298295
+logvar_only,Linear,B2_11,B2,449.0,628.6865350606708
+logvar_only,Linear,B2_12,B2,466.0,505.9181746650397
+logvar_only,Linear,B2_13,B2,460.0,570.8715530529633
+logvar_only,Linear,B2_14,B2,426.0,489.0821882672252
+logvar_only,Linear,B2_15,B2,396.0,642.1061729364117
+logvar_only,Linear,B2_16,B2,472.0,632.7823821586377
+logvar_only,Linear,B2_17,B2,471.0,635.1528996230578
+logvar_only,Linear,B2_18,B2,449.0,731.8065645937431
+logvar_only,Linear,B2_19,B2,392.0,550.7264600574654
+logvar_only,Linear,B2_20,B2,489.0,609.9990450486578
+logvar_only,Linear,B2_21,B2,408.0,563.970917388109
+logvar_only,Linear,B2_24,B2,514.0,699.2844108974203
+logvar_only,Linear,B2_25,B2,493.0,650.1663473493979
+logvar_only,Linear,B2_26,B2,450.0,524.9972232271604
+logvar_only,Linear,B2_27,B2,474.0,629.0353498937944
+logvar_only,Linear,B2_28,B2,437.0,602.573631149393
+logvar_only,Linear,B2_29,B2,452.0,638.5982847406655
+logvar_only,Linear,B2_30,B2,412.0,511.9937259975447
+logvar_only,Linear,B2_31,B2,425.0,573.9710172871446
+logvar_only,Linear,B2_32,B2,809.0,978.313384926198
+logvar_only,Linear,B2_33,B2,1140.0,1047.733886770638
+logvar_only,Linear,B2_34,B2,1186.0,1215.4608206360954
+logvar_only,Linear,B2_41,B2,442.0,507.4431704651285
+logvar_only,Linear,B2_42,B2,474.0,627.4804627863008
+logvar_only,Linear,B2_43,B2,1029.0,1076.927748697381
+logvar_only,Linear,B2_44,B2,841.0,1147.5029238677582
+logvar_only,Linear,B2_45,B2,997.0,1008.0503702862003
+logvar_only,Linear,B2_46,B2,503.0,638.8723733153221
+logvar_only,Linear,B3_00,B3,1009.0,1057.4499955815959
+logvar_only,Linear,B3_01,B3,1063.0,1087.1186120116179
+logvar_only,Linear,B3_02,B3,1267.0,1524.2956636753972
+logvar_only,Linear,B3_03,B3,1115.0,968.4146961372436
+logvar_only,Linear,B3_04,B3,1048.0,1010.2956997113794
+logvar_only,Linear,B3_05,B3,828.0,966.9683129681318
+logvar_only,Linear,B3_06,B3,667.0,646.2755121776956
+logvar_only,Linear,B3_07,B3,1836.0,1249.3311065015441
+logvar_only,Linear,B3_08,B3,828.0,952.1128578793731
+logvar_only,Linear,B3_09,B3,1039.0,883.360061850618
+logvar_only,Linear,B3_10,B3,1078.0,1184.8807595538076
+logvar_only,Linear,B3_11,B3,817.0,826.4051396164091
+logvar_only,Linear,B3_12,B3,932.0,862.1510974290787
+logvar_only,Linear,B3_13,B3,816.0,953.8496407762849
+logvar_only,Linear,B3_14,B3,858.0,893.9251934091576
+logvar_only,Linear,B3_15,B3,876.0,894.5474810303276
+logvar_only,Linear,B3_16,B3,1638.0,1438.2773722409383
+logvar_only,Linear,B3_17,B3,1315.0,1208.1024162120684
+logvar_only,Linear,B3_18,B3,1146.0,1063.938153629553
+logvar_only,Linear,B3_19,B3,1155.0,1005.7946446652923
+logvar_only,Linear,B3_20,B3,813.0,935.6658444157771
+logvar_only,Linear,B3_21,B3,772.0,730.3174474388908
+logvar_only,Linear,B3_22,B3,1002.0,923.2468069362242
+logvar_only,Linear,B3_24,B3,825.0,994.3726681971792
+logvar_only,Linear,B3_25,B3,989.0,988.4730447754498
+logvar_only,Linear,B3_26,B3,1028.0,1039.077824810837
+logvar_only,Linear,B3_27,B3,850.0,977.4206564279021
+logvar_only,Linear,B3_28,B3,541.0,614.336618384347
+logvar_only,Linear,B3_29,B3,858.0,933.8945000360486
+logvar_only,Linear,B3_30,B3,935.0,957.6168727602499
+logvar_only,Linear,B3_31,B3,731.0,801.1655877581328
+logvar_only,Linear,B3_33,B3,1284.0,1172.4110703419353
+logvar_only,Linear,B3_34,B3,1158.0,1102.1903552401718
+logvar_only,Linear,B3_35,B3,1093.0,1050.0526915403825
+logvar_only,Linear,B3_36,B3,923.0,1063.5056319241667
+logvar_only,Linear,B3_37,B3,1390.0,1896.8481740568168
+logvar_only,Linear,B3_38,B3,1935.0,1129.9897661113605
+logvar_only,Linear,B3_39,B3,1156.0,1220.5042202225643
+logvar_only,Linear,B3_40,B3,796.0,1094.2593730447495
+logvar_only,Linear,B3_41,B3,786.0,1039.0792164981278
+logvar_only,Linear,B3_42,B3,1642.0,1133.1974916130323
+logvar_only,Linear,B3_43,B3,1046.0,1110.5871509581386
+logvar_only,Linear,B3_44,B3,940.0,978.333049274844
+logvar_only,Linear,B3_45,B3,1801.0,1277.09078660075
+logvar_only,ElasticNet,B2_00,B2,477.0,629.8016331412068
+logvar_only,ElasticNet,B2_01,B2,491.0,553.4691308804421
+logvar_only,ElasticNet,B2_02,B2,424.0,618.2899441085863
+logvar_only,ElasticNet,B2_03,B2,499.0,633.6744942507408
+logvar_only,ElasticNet,B2_04,B2,444.0,529.2446367224729
+logvar_only,ElasticNet,B2_05,B2,416.0,478.82350941813263
+logvar_only,ElasticNet,B2_06,B2,393.0,648.4678970394673
+logvar_only,ElasticNet,B2_07,B2,777.0,1047.017095874631
+logvar_only,ElasticNet,B2_08,B2,904.0,958.5747490694386
+logvar_only,ElasticNet,B2_09,B2,791.0,1130.813355532423
+logvar_only,ElasticNet,B2_10,B2,492.0,614.3558552796308
+logvar_only,ElasticNet,B2_11,B2,449.0,628.9972915094888
+logvar_only,ElasticNet,B2_12,B2,466.0,506.42820441680163
+logvar_only,ElasticNet,B2_13,B2,460.0,571.2839609568283
+logvar_only,ElasticNet,B2_14,B2,426.0,489.6144052690743
+logvar_only,ElasticNet,B2_15,B2,396.0,642.3914968016968
+logvar_only,ElasticNet,B2_16,B2,472.0,633.0854472383936
+logvar_only,ElasticNet,B2_17,B2,471.0,635.4514846399064
+logvar_only,ElasticNet,B2_18,B2,449.0,731.9055303488627
+logvar_only,ElasticNet,B2_19,B2,392.0,551.1711094684312
+logvar_only,ElasticNet,B2_20,B2,489.0,610.3440886771958
+logvar_only,ElasticNet,B2_21,B2,408.0,564.3945614320897
+logvar_only,ElasticNet,B2_24,B2,514.0,699.4541187519609
+logvar_only,ElasticNet,B2_25,B2,493.0,650.4360768590433
+logvar_only,ElasticNet,B2_26,B2,450.0,525.4805134664228
+logvar_only,ElasticNet,B2_27,B2,474.0,629.3454537684139
+logvar_only,ElasticNet,B2_28,B2,437.0,602.9319260133757
+logvar_only,ElasticNet,B2_29,B2,452.0,638.8903211046063
+logvar_only,ElasticNet,B2_30,B2,412.0,512.4954220662518
+logvar_only,ElasticNet,B2_31,B2,425.0,574.3783142124304
+logvar_only,ElasticNet,B2_32,B2,809.0,977.7746055237095
+logvar_only,ElasticNet,B2_33,B2,1140.0,1046.9872334624024
+logvar_only,ElasticNet,B2_34,B2,1186.0,1214.1684690601726
+logvar_only,ElasticNet,B2_41,B2,442.0,507.9511245237257
+logvar_only,ElasticNet,B2_42,B2,474.0,627.7934720748199
+logvar_only,ElasticNet,B2_43,B2,1029.0,1076.0903964838137
+logvar_only,ElasticNet,B2_44,B2,841.0,1146.4387032645682
+logvar_only,ElasticNet,B2_45,B2,997.0,1007.4239208680175
+logvar_only,ElasticNet,B2_46,B2,503.0,639.1638868324222
+logvar_only,ElasticNet,B3_00,B3,1009.0,1056.6733666411174
+logvar_only,ElasticNet,B3_01,B3,1063.0,1086.2491573851967
+logvar_only,ElasticNet,B3_02,B3,1267.0,1521.8604144897558
+logvar_only,ElasticNet,B3_03,B3,1115.0,967.9046304989917
+logvar_only,ElasticNet,B3_04,B3,1048.0,1009.6625459526268
+logvar_only,ElasticNet,B3_05,B3,828.0,966.4624230399378
+logvar_only,ElasticNet,B3_06,B3,667.0,646.5527990562464
+logvar_only,ElasticNet,B3_07,B3,1836.0,1247.9216800177066
+logvar_only,ElasticNet,B3_08,B3,828.0,951.6495592073759
+logvar_only,ElasticNet,B3_09,B3,1039.0,883.0866267896907
+logvar_only,ElasticNet,B3_10,B3,1078.0,1183.6922019914118
+logvar_only,ElasticNet,B3_11,B3,817.0,826.279470543589
+logvar_only,ElasticNet,B3_12,B3,932.0,861.9337301425539
+logvar_only,ElasticNet,B3_13,B3,816.0,953.3813907035805
+logvar_only,ElasticNet,B3_14,B3,858.0,893.6233787964621
+logvar_only,ElasticNet,B3_15,B3,876.0,894.2439856463018
+logvar_only,ElasticNet,B3_16,B3,1638.0,1436.1766864205333
+logvar_only,ElasticNet,B3_17,B3,1315.0,1206.8352076350561
+logvar_only,ElasticNet,B3_18,B3,1146.0,1063.1413905206364
+logvar_only,ElasticNet,B3_19,B3,1155.0,1005.174918763513
+logvar_only,ElasticNet,B3_20,B3,813.0,935.2490625543574
+logvar_only,ElasticNet,B3_21,B3,772.0,730.4197279524107
+logvar_only,ElasticNet,B3_22,B3,1002.0,922.8646987952249
+logvar_only,ElasticNet,B3_24,B3,825.0,993.786803592214
+logvar_only,ElasticNet,B3_25,B3,989.0,987.9045491854331
+logvar_only,ElasticNet,B3_26,B3,1028.0,1038.3576979855618
+logvar_only,ElasticNet,B3_27,B3,850.0,976.8844763390002
+logvar_only,ElasticNet,B3_28,B3,541.0,614.6738224427462
+logvar_only,ElasticNet,B3_29,B3,858.0,933.4826876085381
+logvar_only,ElasticNet,B3_30,B3,935.0,957.1378570766625
+logvar_only,ElasticNet,B3_31,B3,731.0,801.1024784778709
+logvar_only,ElasticNet,B3_33,B3,1284.0,1171.2643061871547
+logvar_only,ElasticNet,B3_34,B3,1158.0,1101.2730109134557
+logvar_only,ElasticNet,B3_35,B3,1093.0,1049.2989035887986
+logvar_only,ElasticNet,B3_36,B3,923.0,1062.7102139306212
+logvar_only,ElasticNet,B3_37,B3,1390.0,1892.8393242074744
+logvar_only,ElasticNet,B3_38,B3,1935.0,1128.9828217445197
+logvar_only,ElasticNet,B3_39,B3,1156.0,1219.1945751706537
+logvar_only,ElasticNet,B3_40,B3,796.0,1093.3672899598048
+logvar_only,ElasticNet,B3_41,B3,786.0,1038.3590854216477
+logvar_only,ElasticNet,B3_42,B3,1642.0,1132.1801040190444
+logvar_only,ElasticNet,B3_43,B3,1046.0,1109.6429152145993
+logvar_only,ElasticNet,B3_44,B3,940.0,977.7942125950265
+logvar_only,ElasticNet,B3_45,B3,1801.0,1275.583791617295
+logvar_only,GPR,B2_00,B2,477.0,623.6681486139092
+logvar_only,GPR,B2_01,B2,491.0,564.0029093425962
+logvar_only,GPR,B2_02,B2,424.0,612.7019419019989
+logvar_only,GPR,B2_03,B2,499.0,627.4825313980606
+logvar_only,GPR,B2_04,B2,444.0,552.8450042888402
+logvar_only,GPR,B2_05,B2,416.0,544.7159989994625
+logvar_only,GPR,B2_06,B2,393.0,642.5731287024424
+logvar_only,GPR,B2_07,B2,777.0,962.4131230715317
+logvar_only,GPR,B2_08,B2,904.0,937.2463790364154
+logvar_only,GPR,B2_09,B2,791.0,963.564944989763
+logvar_only,GPR,B2_10,B2,492.0,609.089965311921
+logvar_only,GPR,B2_11,B2,449.0,622.8835646094315
+logvar_only,GPR,B2_12,B2,466.0,546.5055637973312
+logvar_only,GPR,B2_13,B2,460.0,574.8623320261853
+logvar_only,GPR,B2_14,B2,426.0,544.6206663256003
+logvar_only,GPR,B2_15,B2,396.0,636.2795624564469
+logvar_only,GPR,B2_16,B2,472.0,626.8985204855807
+logvar_only,GPR,B2_17,B2,471.0,629.2525473300893
+logvar_only,GPR,B2_18,B2,449.0,737.0724812185332
+logvar_only,GPR,B2_19,B2,392.0,562.7602447299909
+logvar_only,GPR,B2_20,B2,489.0,605.4821240407846
+logvar_only,GPR,B2_21,B2,408.0,570.4109497097228
+logvar_only,GPR,B2_24,B2,514.0,699.2154739623396
+logvar_only,GPR,B2_25,B2,493.0,644.6381671030325
+logvar_only,GPR,B2_26,B2,450.0,551.5106033034078
+logvar_only,GPR,B2_27,B2,474.0,623.2228484822448
+logvar_only,GPR,B2_28,B2,437.0,599.025500858967
+logvar_only,GPR,B2_29,B2,452.0,632.7122058368104
+logvar_only,GPR,B2_30,B2,412.0,547.7763144950884
+logvar_only,GPR,B2_31,B2,425.0,576.9611903647989
+logvar_only,GPR,B2_32,B2,809.0,945.2196072874722
+logvar_only,GPR,B2_33,B2,1140.0,962.4092624294057
+logvar_only,GPR,B2_34,B2,1186.0,950.7475166095064
+logvar_only,GPR,B2_41,B2,442.0,546.7956102886668
+logvar_only,GPR,B2_42,B2,474.0,621.7143072888019
+logvar_only,GPR,B2_43,B2,1029.0,964.8980797011988
+logvar_only,GPR,B2_44,B2,841.0,961.9948460207592
+logvar_only,GPR,B2_45,B2,997.0,954.6958252643161
+logvar_only,GPR,B2_46,B2,503.0,632.9893314919813
+logvar_only,GPR,B3_00,B3,1009.0,963.5165291522678
+logvar_only,GPR,B3_01,B3,1063.0,965.2026711388108
+logvar_only,GPR,B3_02,B3,1267.0,872.3609006886928
+logvar_only,GPR,B3_03,B3,1115.0,941.3065575340117
+logvar_only,GPR,B3_04,B3,1048.0,955.2775428645324
+logvar_only,GPR,B3_05,B3,828.0,940.7020435934236
+logvar_only,GPR,B3_06,B3,667.0,640.5760162526992
+logvar_only,GPR,B3_07,B3,1836.0,943.2003325173042
+logvar_only,GPR,B3_08,B3,828.0,934.002123802605
+logvar_only,GPR,B3_09,B3,1039.0,891.017202311787
+logvar_only,GPR,B3_10,B3,1078.0,956.5823619590014
+logvar_only,GPR,B3_11,B3,817.0,840.9349345906063
+logvar_only,GPR,B3_12,B3,932.0,873.8078764447955
+logvar_only,GPR,B3_13,B3,816.0,934.8319975352166
+logvar_only,GPR,B3_14,B3,858.0,898.9092496071374
+logvar_only,GPR,B3_15,B3,876.0,899.3596981435862
+logvar_only,GPR,B3_16,B3,1638.0,893.6158655467598
+logvar_only,GPR,B3_17,B3,1315.0,952.2481333914501
+logvar_only,GPR,B3_18,B3,1146.0,964.0978299989235
+logvar_only,GPR,B3_19,B3,1155.0,954.0930053301212
+logvar_only,GPR,B3_20,B3,813.0,925.5234956682859
+logvar_only,GPR,B3_21,B3,772.0,735.3354058139296
+logvar_only,GPR,B3_22,B3,1002.0,918.3713047509816
+logvar_only,GPR,B3_24,B3,825.0,950.7526715646377
+logvar_only,GPR,B3_25,B3,989.0,948.8353913224098
+logvar_only,GPR,B3_26,B3,1028.0,961.1747129206736
+logvar_only,GPR,B3_27,B3,850.0,944.8826313222389
+logvar_only,GPR,B3_28,B3,541.0,609.3792105789478
+logvar_only,GPR,B3_29,B3,858.0,924.5430024443202
+logvar_only,GPR,B3_30,B3,935.0,936.5894795502953
+logvar_only,GPR,B3_31,B3,731.0,815.1567706182649
+logvar_only,GPR,B3_33,B3,1284.0,958.6237254042762
+logvar_only,GPR,B3_34,B3,1158.0,965.165888481258
+logvar_only,GPR,B3_35,B3,1093.0,962.6998535117913
+logvar_only,GPR,B3_36,B3,923.0,964.0629229871968
+logvar_only,GPR,B3_37,B3,1390.0,811.4870454843865
+logvar_only,GPR,B3_38,B3,1935.0,963.7181057482895
+logvar_only,GPR,B3_39,B3,1156.0,949.6874640967952
+logvar_only,GPR,B3_40,B3,796.0,965.2554487992709
+logvar_only,GPR,B3_41,B3,786.0,961.1749306903998
+logvar_only,GPR,B3_42,B3,1642.0,963.4462434897074
+logvar_only,GPR,B3_43,B3,1046.0,964.9085149548774
+logvar_only,GPR,B3_44,B3,940.0,945.2269946467893
+logvar_only,GPR,B3_45,B3,1801.0,936.4068590874077
+logvar_only,RandomForest,B2_00,B2,477.0,596.208125572093
+logvar_only,RandomForest,B2_01,B2,491.0,591.3627443026226
+logvar_only,RandomForest,B2_02,B2,424.0,595.047167332217
+logvar_only,RandomForest,B2_03,B2,499.0,596.9743091883805
+logvar_only,RandomForest,B2_04,B2,444.0,591.3627443026226
+logvar_only,RandomForest,B2_05,B2,416.0,591.3627443026226
+logvar_only,RandomForest,B2_06,B2,393.0,626.1757791046476
+logvar_only,RandomForest,B2_07,B2,777.0,956.2781170266883
+logvar_only,RandomForest,B2_08,B2,904.0,956.2781170266883
+logvar_only,RandomForest,B2_09,B2,791.0,956.2781170266883
+logvar_only,RandomForest,B2_10,B2,492.0,595.047167332217
+logvar_only,RandomForest,B2_11,B2,449.0,596.208125572093
+logvar_only,RandomForest,B2_12,B2,466.0,591.3627443026226
+logvar_only,RandomForest,B2_13,B2,460.0,591.3627443026226
+logvar_only,RandomForest,B2_14,B2,426.0,591.3627443026226
+logvar_only,RandomForest,B2_15,B2,396.0,596.9743091883805
+logvar_only,RandomForest,B2_16,B2,472.0,596.9743091883805
+logvar_only,RandomForest,B2_17,B2,471.0,596.9743091883805
+logvar_only,RandomForest,B2_18,B2,449.0,701.6055168623437
+logvar_only,RandomForest,B2_19,B2,392.0,591.3627443026226
+logvar_only,RandomForest,B2_20,B2,489.0,595.047167332217
+logvar_only,RandomForest,B2_21,B2,408.0,591.3627443026226
+logvar_only,RandomForest,B2_24,B2,514.0,702.3665718074936
+logvar_only,RandomForest,B2_25,B2,493.0,627.5727118154135
+logvar_only,RandomForest,B2_26,B2,450.0,591.3627443026226
+logvar_only,RandomForest,B2_27,B2,474.0,596.208125572093
+logvar_only,RandomForest,B2_28,B2,437.0,593.143095391635
+logvar_only,RandomForest,B2_29,B2,452.0,596.9743091883805
+logvar_only,RandomForest,B2_30,B2,412.0,591.3627443026226
+logvar_only,RandomForest,B2_31,B2,425.0,591.3627443026226
+logvar_only,RandomForest,B2_32,B2,809.0,956.2781170266883
+logvar_only,RandomForest,B2_33,B2,1140.0,956.2781170266883
+logvar_only,RandomForest,B2_34,B2,1186.0,956.2781170266883
+logvar_only,RandomForest,B2_41,B2,442.0,591.3627443026226
+logvar_only,RandomForest,B2_42,B2,474.0,596.208125572093
+logvar_only,RandomForest,B2_43,B2,1029.0,956.2781170266883
+logvar_only,RandomForest,B2_44,B2,841.0,956.2781170266883
+logvar_only,RandomForest,B2_45,B2,997.0,956.2781170266883
+logvar_only,RandomForest,B2_46,B2,503.0,596.9743091883805
+logvar_only,RandomForest,B3_00,B3,1009.0,956.2781170266883
+logvar_only,RandomForest,B3_01,B3,1063.0,956.2781170266883
+logvar_only,RandomForest,B3_02,B3,1267.0,956.2781170266883
+logvar_only,RandomForest,B3_03,B3,1115.0,956.2781170266883
+logvar_only,RandomForest,B3_04,B3,1048.0,956.2781170266883
+logvar_only,RandomForest,B3_05,B3,828.0,956.2781170266883
+logvar_only,RandomForest,B3_06,B3,667.0,604.8536175398352
+logvar_only,RandomForest,B3_07,B3,1836.0,956.2781170266883
+logvar_only,RandomForest,B3_08,B3,828.0,956.5563029309478
+logvar_only,RandomForest,B3_09,B3,1039.0,871.1467339791777
+logvar_only,RandomForest,B3_10,B3,1078.0,956.2781170266883
+logvar_only,RandomForest,B3_11,B3,817.0,851.885753248894
+logvar_only,RandomForest,B3_12,B3,932.0,872.0042213506267
+logvar_only,RandomForest,B3_13,B3,816.0,956.5563029309478
+logvar_only,RandomForest,B3_14,B3,858.0,871.1467339791777
+logvar_only,RandomForest,B3_15,B3,876.0,871.1467339791777
+logvar_only,RandomForest,B3_16,B3,1638.0,956.2781170266883
+logvar_only,RandomForest,B3_17,B3,1315.0,956.2781170266883
+logvar_only,RandomForest,B3_18,B3,1146.0,956.2781170266883
+logvar_only,RandomForest,B3_19,B3,1155.0,956.2781170266883
+logvar_only,RandomForest,B3_20,B3,813.0,962.1071135463801
+logvar_only,RandomForest,B3_21,B3,772.0,701.6055168623437
+logvar_only,RandomForest,B3_22,B3,1002.0,938.9993357999364
+logvar_only,RandomForest,B3_24,B3,825.0,956.2781170266883
+logvar_only,RandomForest,B3_25,B3,989.0,956.2781170266883
+logvar_only,RandomForest,B3_26,B3,1028.0,956.2781170266883
+logvar_only,RandomForest,B3_27,B3,850.0,956.2781170266883
+logvar_only,RandomForest,B3_28,B3,541.0,595.047167332217
+logvar_only,RandomForest,B3_29,B3,858.0,962.1071135463801
+logvar_only,RandomForest,B3_30,B3,935.0,956.5563029309478
+logvar_only,RandomForest,B3_31,B3,731.0,850.0090220869434
+logvar_only,RandomForest,B3_33,B3,1284.0,956.2781170266883
+logvar_only,RandomForest,B3_34,B3,1158.0,956.2781170266883
+logvar_only,RandomForest,B3_35,B3,1093.0,956.2781170266883
+logvar_only,RandomForest,B3_36,B3,923.0,956.2781170266883
+logvar_only,RandomForest,B3_37,B3,1390.0,956.2781170266883
+logvar_only,RandomForest,B3_38,B3,1935.0,956.2781170266883
+logvar_only,RandomForest,B3_39,B3,1156.0,956.2781170266883
+logvar_only,RandomForest,B3_40,B3,796.0,956.2781170266883
+logvar_only,RandomForest,B3_41,B3,786.0,956.2781170266883
+logvar_only,RandomForest,B3_42,B3,1642.0,956.2781170266883
+logvar_only,RandomForest,B3_43,B3,1046.0,956.2781170266883
+logvar_only,RandomForest,B3_44,B3,940.0,956.2781170266883
+logvar_only,RandomForest,B3_45,B3,1801.0,956.2781170266883
+logvar_only,GradientBoosting,B2_00,B2,477.0,631.9517997888236
+logvar_only,GradientBoosting,B2_01,B2,491.0,581.4043785345992
+logvar_only,GradientBoosting,B2_02,B2,424.0,627.9433204165102
+logvar_only,GradientBoosting,B2_03,B2,499.0,631.9517997888236
+logvar_only,GradientBoosting,B2_04,B2,444.0,581.4043785345992
+logvar_only,GradientBoosting,B2_05,B2,416.0,581.4043785345992
+logvar_only,GradientBoosting,B2_06,B2,393.0,640.0898552752304
+logvar_only,GradientBoosting,B2_07,B2,777.0,983.8695429828455
+logvar_only,GradientBoosting,B2_08,B2,904.0,924.1262202452386
+logvar_only,GradientBoosting,B2_09,B2,791.0,983.8695429828455
+logvar_only,GradientBoosting,B2_10,B2,492.0,627.9433204165102
+logvar_only,GradientBoosting,B2_11,B2,449.0,631.9517997888236
+logvar_only,GradientBoosting,B2_12,B2,466.0,581.4043785345992
+logvar_only,GradientBoosting,B2_13,B2,460.0,581.4043785345992
+logvar_only,GradientBoosting,B2_14,B2,426.0,581.4043785345992
+logvar_only,GradientBoosting,B2_15,B2,396.0,631.9517997888236
+logvar_only,GradientBoosting,B2_16,B2,472.0,631.9517997888236
+logvar_only,GradientBoosting,B2_17,B2,471.0,631.9517997888236
+logvar_only,GradientBoosting,B2_18,B2,449.0,696.1875567047113
+logvar_only,GradientBoosting,B2_19,B2,392.0,581.4043785345992
+logvar_only,GradientBoosting,B2_20,B2,489.0,627.9433204165102
+logvar_only,GradientBoosting,B2_21,B2,408.0,581.4043785345992
+logvar_only,GradientBoosting,B2_24,B2,514.0,696.1875567047113
+logvar_only,GradientBoosting,B2_25,B2,493.0,640.0898552752304
+logvar_only,GradientBoosting,B2_26,B2,450.0,581.4043785345992
+logvar_only,GradientBoosting,B2_27,B2,474.0,631.9517997888236
+logvar_only,GradientBoosting,B2_28,B2,437.0,613.7010625807395
+logvar_only,GradientBoosting,B2_29,B2,452.0,631.9517997888236
+logvar_only,GradientBoosting,B2_30,B2,412.0,581.4043785345992
+logvar_only,GradientBoosting,B2_31,B2,425.0,581.4043785345992
+logvar_only,GradientBoosting,B2_32,B2,809.0,897.6237611849185
+logvar_only,GradientBoosting,B2_33,B2,1140.0,983.8695429828455
+logvar_only,GradientBoosting,B2_34,B2,1186.0,983.8695429828455
+logvar_only,GradientBoosting,B2_41,B2,442.0,581.4043785345992
+logvar_only,GradientBoosting,B2_42,B2,474.0,631.9517997888236
+logvar_only,GradientBoosting,B2_43,B2,1029.0,983.8695429828455
+logvar_only,GradientBoosting,B2_44,B2,841.0,983.8695429828455
+logvar_only,GradientBoosting,B2_45,B2,997.0,983.8695429828455
+logvar_only,GradientBoosting,B2_46,B2,503.0,631.9517997888236
+logvar_only,GradientBoosting,B3_00,B3,1009.0,983.8695429828455
+logvar_only,GradientBoosting,B3_01,B3,1063.0,983.8695429828455
+logvar_only,GradientBoosting,B3_02,B3,1267.0,983.8695429828455
+logvar_only,GradientBoosting,B3_03,B3,1115.0,904.4416360850125
+logvar_only,GradientBoosting,B3_04,B3,1048.0,983.8695429828455
+logvar_only,GradientBoosting,B3_05,B3,828.0,904.4416360850125
+logvar_only,GradientBoosting,B3_06,B3,667.0,631.9517997888236
+logvar_only,GradientBoosting,B3_07,B3,1836.0,983.8695429828455
+logvar_only,GradientBoosting,B3_08,B3,828.0,924.1262202452386
+logvar_only,GradientBoosting,B3_09,B3,1039.0,864.3727099617736
+logvar_only,GradientBoosting,B3_10,B3,1078.0,983.8695429828455
+logvar_only,GradientBoosting,B3_11,B3,817.0,848.4153497423977
+logvar_only,GradientBoosting,B3_12,B3,932.0,864.3727099617736
+logvar_only,GradientBoosting,B3_13,B3,816.0,924.1262202452386
+logvar_only,GradientBoosting,B3_14,B3,858.0,864.3727099617736
+logvar_only,GradientBoosting,B3_15,B3,876.0,864.3727099617736
+logvar_only,GradientBoosting,B3_16,B3,1638.0,983.8695429828455
+logvar_only,GradientBoosting,B3_17,B3,1315.0,983.8695429828455
+logvar_only,GradientBoosting,B3_18,B3,1146.0,983.8695429828455
+logvar_only,GradientBoosting,B3_19,B3,1155.0,983.8695429828455
+logvar_only,GradientBoosting,B3_20,B3,813.0,955.929427022676
+logvar_only,GradientBoosting,B3_21,B3,772.0,696.1875567047113
+logvar_only,GradientBoosting,B3_22,B3,1002.0,927.5268478799762
+logvar_only,GradientBoosting,B3_24,B3,825.0,897.6237611849185
+logvar_only,GradientBoosting,B3_25,B3,989.0,897.6237611849185
+logvar_only,GradientBoosting,B3_26,B3,1028.0,983.8695429828455
+logvar_only,GradientBoosting,B3_27,B3,850.0,897.6237611849185
+logvar_only,GradientBoosting,B3_28,B3,541.0,627.9433204165102
+logvar_only,GradientBoosting,B3_29,B3,858.0,955.929427022676
+logvar_only,GradientBoosting,B3_30,B3,935.0,924.1262202452386
+logvar_only,GradientBoosting,B3_31,B3,731.0,850.3094499166507
+logvar_only,GradientBoosting,B3_33,B3,1284.0,983.8695429828455
+logvar_only,GradientBoosting,B3_34,B3,1158.0,983.8695429828455
+logvar_only,GradientBoosting,B3_35,B3,1093.0,983.8695429828455
+logvar_only,GradientBoosting,B3_36,B3,923.0,983.8695429828455
+logvar_only,GradientBoosting,B3_37,B3,1390.0,983.8695429828455
+logvar_only,GradientBoosting,B3_38,B3,1935.0,983.8695429828455
+logvar_only,GradientBoosting,B3_39,B3,1156.0,983.8695429828455
+logvar_only,GradientBoosting,B3_40,B3,796.0,983.8695429828455
+logvar_only,GradientBoosting,B3_41,B3,786.0,983.8695429828455
+logvar_only,GradientBoosting,B3_42,B3,1642.0,983.8695429828455
+logvar_only,GradientBoosting,B3_43,B3,1046.0,983.8695429828455
+logvar_only,GradientBoosting,B3_44,B3,940.0,897.6237611849185
+logvar_only,GradientBoosting,B3_45,B3,1801.0,983.8695429828455
+paper_discharge,Dummy (평균),B2_00,B2,477.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_01,B2,491.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_02,B2,424.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_03,B2,499.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_04,B2,444.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_05,B2,416.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_06,B2,393.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_07,B2,777.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_08,B2,904.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_09,B2,791.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_10,B2,492.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_11,B2,449.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_12,B2,466.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_13,B2,460.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_14,B2,426.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_15,B2,396.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_16,B2,472.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_17,B2,471.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_18,B2,449.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_19,B2,392.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_20,B2,489.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_21,B2,408.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_24,B2,514.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_25,B2,493.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_26,B2,450.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_27,B2,474.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_28,B2,437.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_29,B2,452.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_30,B2,412.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_31,B2,425.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_32,B2,809.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_33,B2,1140.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_34,B2,1186.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_41,B2,442.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_42,B2,474.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_43,B2,1029.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_44,B2,841.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_45,B2,997.0,774.9008786431996
+paper_discharge,Dummy (평균),B2_46,B2,503.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_00,B3,1009.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_01,B3,1063.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_02,B3,1267.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_03,B3,1115.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_04,B3,1048.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_05,B3,828.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_06,B3,667.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_07,B3,1836.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_08,B3,828.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_09,B3,1039.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_10,B3,1078.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_11,B3,817.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_12,B3,932.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_13,B3,816.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_14,B3,858.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_15,B3,876.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_16,B3,1638.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_17,B3,1315.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_18,B3,1146.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_19,B3,1155.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_20,B3,813.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_21,B3,772.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_22,B3,1002.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_24,B3,825.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_25,B3,989.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_26,B3,1028.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_27,B3,850.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_28,B3,541.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_29,B3,858.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_30,B3,935.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_31,B3,731.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_33,B3,1284.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_34,B3,1158.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_35,B3,1093.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_36,B3,923.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_37,B3,1390.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_38,B3,1935.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_39,B3,1156.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_40,B3,796.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_41,B3,786.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_42,B3,1642.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_43,B3,1046.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_44,B3,940.0,774.9008786431996
+paper_discharge,Dummy (평균),B3_45,B3,1801.0,774.9008786431996
+paper_discharge,Linear,B2_00,B2,477.0,604.9947932955816
+paper_discharge,Linear,B2_01,B2,491.0,613.1215563096126
+paper_discharge,Linear,B2_02,B2,424.0,547.9737545018477
+paper_discharge,Linear,B2_03,B2,499.0,380.87076176878725
+paper_discharge,Linear,B2_04,B2,444.0,591.9385572296925
+paper_discharge,Linear,B2_05,B2,416.0,489.04365541337677
+paper_discharge,Linear,B2_06,B2,393.0,441.8185217071046
+paper_discharge,Linear,B2_07,B2,777.0,1160.3213585755384
+paper_discharge,Linear,B2_08,B2,904.0,976.3614142995531
+paper_discharge,Linear,B2_09,B2,791.0,1361.8523605177268
+paper_discharge,Linear,B2_10,B2,492.0,579.5187977521991
+paper_discharge,Linear,B2_11,B2,449.0,378.1855563740766
+paper_discharge,Linear,B2_12,B2,466.0,459.1290837215493
+paper_discharge,Linear,B2_13,B2,460.0,605.2607530128546
+paper_discharge,Linear,B2_14,B2,426.0,462.14029984208634
+paper_discharge,Linear,B2_15,B2,396.0,425.92407740537624
+paper_discharge,Linear,B2_16,B2,472.0,667.6792963952171
+paper_discharge,Linear,B2_17,B2,471.0,600.8523862068367
+paper_discharge,Linear,B2_18,B2,449.0,513.2581457890406
+paper_discharge,Linear,B2_19,B2,392.0,458.8570809847003
+paper_discharge,Linear,B2_20,B2,489.0,445.86774798430525
+paper_discharge,Linear,B2_21,B2,408.0,514.9274564610538
+paper_discharge,Linear,B2_24,B2,514.0,581.826332344669
+paper_discharge,Linear,B2_25,B2,493.0,580.223897248079
+paper_discharge,Linear,B2_26,B2,450.0,599.702450400888
+paper_discharge,Linear,B2_27,B2,474.0,446.7774653984403
+paper_discharge,Linear,B2_28,B2,437.0,457.8334298519388
+paper_discharge,Linear,B2_29,B2,452.0,389.0953681929513
+paper_discharge,Linear,B2_30,B2,412.0,510.3253106380784
+paper_discharge,Linear,B2_31,B2,425.0,547.4318371239704
+paper_discharge,Linear,B2_32,B2,809.0,972.3877317259847
+paper_discharge,Linear,B2_33,B2,1140.0,1119.6359363387844
+paper_discharge,Linear,B2_34,B2,1186.0,1192.582851826297
+paper_discharge,Linear,B2_41,B2,442.0,437.99400160473874
+paper_discharge,Linear,B2_42,B2,474.0,441.3154318106994
+paper_discharge,Linear,B2_43,B2,1029.0,1582.341555494813
+paper_discharge,Linear,B2_44,B2,841.0,1576.6178503402193
+paper_discharge,Linear,B2_45,B2,997.0,1198.2694240690491
+paper_discharge,Linear,B2_46,B2,503.0,635.5972267659112
+paper_discharge,Linear,B3_00,B3,1009.0,1048.0989005688518
+paper_discharge,Linear,B3_01,B3,1063.0,1086.9221985497209
+paper_discharge,Linear,B3_02,B3,1267.0,832.3226261634588
+paper_discharge,Linear,B3_03,B3,1115.0,875.4744212789376
+paper_discharge,Linear,B3_04,B3,1048.0,1033.9082876411067
+paper_discharge,Linear,B3_05,B3,828.0,979.4895002980265
+paper_discharge,Linear,B3_06,B3,667.0,536.8003911177047
+paper_discharge,Linear,B3_07,B3,1836.0,1385.981874715869
+paper_discharge,Linear,B3_08,B3,828.0,956.1874521006654
+paper_discharge,Linear,B3_09,B3,1039.0,951.1999597317644
+paper_discharge,Linear,B3_10,B3,1078.0,1226.841980757557
+paper_discharge,Linear,B3_11,B3,817.0,840.4509369472487
+paper_discharge,Linear,B3_12,B3,932.0,954.739068590448
+paper_discharge,Linear,B3_13,B3,816.0,905.3919240605929
+paper_discharge,Linear,B3_14,B3,858.0,946.505395466831
+paper_discharge,Linear,B3_15,B3,876.0,961.1853210979514
+paper_discharge,Linear,B3_16,B3,1638.0,1462.4156687606353
+paper_discharge,Linear,B3_17,B3,1315.0,1247.8773686353277
+paper_discharge,Linear,B3_18,B3,1146.0,1080.9709271592433
+paper_discharge,Linear,B3_19,B3,1155.0,1094.2407887677048
+paper_discharge,Linear,B3_20,B3,813.0,915.7331463890011
+paper_discharge,Linear,B3_21,B3,772.0,646.516740751303
+paper_discharge,Linear,B3_22,B3,1002.0,910.2303622017612
+paper_discharge,Linear,B3_24,B3,825.0,856.6526568163507
+paper_discharge,Linear,B3_25,B3,989.0,837.5795047796616
+paper_discharge,Linear,B3_26,B3,1028.0,998.0643789423114
+paper_discharge,Linear,B3_27,B3,850.0,878.4887814665105
+paper_discharge,Linear,B3_28,B3,541.0,476.9489416321297
+paper_discharge,Linear,B3_29,B3,858.0,829.181142810693
+paper_discharge,Linear,B3_30,B3,935.0,942.5100511845502
+paper_discharge,Linear,B3_31,B3,731.0,802.5196947216695
+paper_discharge,Linear,B3_33,B3,1284.0,1110.548393729338
+paper_discharge,Linear,B3_34,B3,1158.0,1124.1462406198425
+paper_discharge,Linear,B3_35,B3,1093.0,1093.1936507211478
+paper_discharge,Linear,B3_36,B3,923.0,987.2161193884351
+paper_discharge,Linear,B3_37,B3,1390.0,408.62570523789964
+paper_discharge,Linear,B3_38,B3,1935.0,1308.9535502954816
+paper_discharge,Linear,B3_39,B3,1156.0,1055.2485588165691
+paper_discharge,Linear,B3_40,B3,796.0,990.7677632464548
+paper_discharge,Linear,B3_41,B3,786.0,841.9752399703738
+paper_discharge,Linear,B3_42,B3,1642.0,949.1906608528044
+paper_discharge,Linear,B3_43,B3,1046.0,935.4553779015465
+paper_discharge,Linear,B3_44,B3,940.0,971.2864367678782
+paper_discharge,Linear,B3_45,B3,1801.0,1477.308033945284
+paper_discharge,ElasticNet,B2_00,B2,477.0,657.7517270010158
+paper_discharge,ElasticNet,B2_01,B2,491.0,608.2271100954724
+paper_discharge,ElasticNet,B2_02,B2,424.0,564.5200230831083
+paper_discharge,ElasticNet,B2_03,B2,499.0,512.1823042296215
+paper_discharge,ElasticNet,B2_04,B2,444.0,568.7809494303107
+paper_discharge,ElasticNet,B2_05,B2,416.0,497.41737945619013
+paper_discharge,ElasticNet,B2_06,B2,393.0,538.0501903645008
+paper_discharge,ElasticNet,B2_07,B2,777.0,1103.4982144029798
+paper_discharge,ElasticNet,B2_08,B2,904.0,991.3696167783163
+paper_discharge,ElasticNet,B2_09,B2,791.0,1222.898527620209
+paper_discharge,ElasticNet,B2_10,B2,492.0,632.1649063694327
+paper_discharge,ElasticNet,B2_11,B2,449.0,507.7786380011422
+paper_discharge,ElasticNet,B2_12,B2,466.0,506.342606792921
+paper_discharge,ElasticNet,B2_13,B2,460.0,603.1058802718491
+paper_discharge,ElasticNet,B2_14,B2,426.0,474.97972220024116
+paper_discharge,ElasticNet,B2_15,B2,396.0,502.73701882902515
+paper_discharge,ElasticNet,B2_16,B2,472.0,673.9022566142717
+paper_discharge,ElasticNet,B2_17,B2,471.0,633.820032346851
+paper_discharge,ElasticNet,B2_18,B2,449.0,596.0015028434412
+paper_discharge,ElasticNet,B2_19,B2,392.0,507.9675447834527
+paper_discharge,ElasticNet,B2_20,B2,489.0,552.2614557616203
+paper_discharge,ElasticNet,B2_21,B2,408.0,559.2003032944222
+paper_discharge,ElasticNet,B2_24,B2,514.0,652.7494054081122
+paper_discharge,ElasticNet,B2_25,B2,493.0,641.9894635347079
+paper_discharge,ElasticNet,B2_26,B2,450.0,593.8157379726546
+paper_discharge,ElasticNet,B2_27,B2,474.0,551.3748800793006
+paper_discharge,ElasticNet,B2_28,B2,437.0,531.7952248537166
+paper_discharge,ElasticNet,B2_29,B2,452.0,522.3935201765203
+paper_discharge,ElasticNet,B2_30,B2,412.0,523.4373835821673
+paper_discharge,ElasticNet,B2_31,B2,425.0,586.8469887004937
+paper_discharge,ElasticNet,B2_32,B2,809.0,985.8465051510391
+paper_discharge,ElasticNet,B2_33,B2,1140.0,1041.347949496397
+paper_discharge,ElasticNet,B2_34,B2,1186.0,1151.75057260823
+paper_discharge,ElasticNet,B2_41,B2,442.0,508.63673288547415
+paper_discharge,ElasticNet,B2_42,B2,474.0,541.75960521591
+paper_discharge,ElasticNet,B2_43,B2,1029.0,1222.8397879778315
+paper_discharge,ElasticNet,B2_44,B2,841.0,1400.7728878400133
+paper_discharge,ElasticNet,B2_45,B2,997.0,1179.8850865586057
+paper_discharge,ElasticNet,B2_46,B2,503.0,671.4840140868331
+paper_discharge,ElasticNet,B3_00,B3,1009.0,1017.4999639138728
+paper_discharge,ElasticNet,B3_01,B3,1063.0,1046.0224131829273
+paper_discharge,ElasticNet,B3_02,B3,1267.0,680.9021285159674
+paper_discharge,ElasticNet,B3_03,B3,1115.0,875.722919739703
+paper_discharge,ElasticNet,B3_04,B3,1048.0,998.1787840516173
+paper_discharge,ElasticNet,B3_05,B3,828.0,886.2740986150324
+paper_discharge,ElasticNet,B3_06,B3,667.0,544.0282669797517
+paper_discharge,ElasticNet,B3_07,B3,1836.0,1257.5049454805646
+paper_discharge,ElasticNet,B3_08,B3,828.0,911.8805213458288
+paper_discharge,ElasticNet,B3_09,B3,1039.0,877.6923283304266
+paper_discharge,ElasticNet,B3_10,B3,1078.0,1144.390574571736
+paper_discharge,ElasticNet,B3_11,B3,817.0,803.7791099719062
+paper_discharge,ElasticNet,B3_12,B3,932.0,886.3150204479581
+paper_discharge,ElasticNet,B3_13,B3,816.0,898.8329268970662
+paper_discharge,ElasticNet,B3_14,B3,858.0,895.1077235448587
+paper_discharge,ElasticNet,B3_15,B3,876.0,890.9192371126151
+paper_discharge,ElasticNet,B3_16,B3,1638.0,1314.9120554546523
+paper_discharge,ElasticNet,B3_17,B3,1315.0,1123.4044724589178
+paper_discharge,ElasticNet,B3_18,B3,1146.0,1038.5437936946723
+paper_discharge,ElasticNet,B3_19,B3,1155.0,1021.0648961655479
+paper_discharge,ElasticNet,B3_20,B3,813.0,888.7742388272025
+paper_discharge,ElasticNet,B3_21,B3,772.0,639.7660567130278
+paper_discharge,ElasticNet,B3_22,B3,1002.0,851.7293816127684
+paper_discharge,ElasticNet,B3_24,B3,825.0,838.1459136447794
+paper_discharge,ElasticNet,B3_25,B3,989.0,870.939317192237
+paper_discharge,ElasticNet,B3_26,B3,1028.0,995.7598468547673
+paper_discharge,ElasticNet,B3_27,B3,850.0,882.2104452821005
+paper_discharge,ElasticNet,B3_28,B3,541.0,493.1859948369041
+paper_discharge,ElasticNet,B3_29,B3,858.0,857.4811731170099
+paper_discharge,ElasticNet,B3_30,B3,935.0,915.082182148681
+paper_discharge,ElasticNet,B3_31,B3,731.0,772.694986158173
+paper_discharge,ElasticNet,B3_33,B3,1284.0,1081.0681039597812
+paper_discharge,ElasticNet,B3_34,B3,1158.0,1052.0357170004197
+paper_discharge,ElasticNet,B3_35,B3,1093.0,1015.6569428102104
+paper_discharge,ElasticNet,B3_36,B3,923.0,958.7581064889317
+paper_discharge,ElasticNet,B3_37,B3,1390.0,535.2818265138228
+paper_discharge,ElasticNet,B3_38,B3,1935.0,1161.0312415260312
+paper_discharge,ElasticNet,B3_39,B3,1156.0,1004.0525223797644
+paper_discharge,ElasticNet,B3_40,B3,796.0,986.2485146895003
+paper_discharge,ElasticNet,B3_41,B3,786.0,865.0337352649165
+paper_discharge,ElasticNet,B3_42,B3,1642.0,387.5697861968575
+paper_discharge,ElasticNet,B3_43,B3,1046.0,659.8358787656498
+paper_discharge,ElasticNet,B3_44,B3,940.0,945.7956048175104
+paper_discharge,ElasticNet,B3_45,B3,1801.0,1317.1001328614946
+paper_discharge,GPR,B2_00,B2,477.0,627.324650596809
+paper_discharge,GPR,B2_01,B2,491.0,596.705644731614
+paper_discharge,GPR,B2_02,B2,424.0,582.6448128554305
+paper_discharge,GPR,B2_03,B2,499.0,598.976638589375
+paper_discharge,GPR,B2_04,B2,444.0,599.9025400592718
+paper_discharge,GPR,B2_05,B2,416.0,532.7307800802298
+paper_discharge,GPR,B2_06,B2,393.0,527.1831304720159
+paper_discharge,GPR,B2_07,B2,777.0,1161.382461637116
+paper_discharge,GPR,B2_08,B2,904.0,1000.1193197818677
+paper_discharge,GPR,B2_09,B2,791.0,1139.2522895439292
+paper_discharge,GPR,B2_10,B2,492.0,596.1972517775775
+paper_discharge,GPR,B2_11,B2,449.0,527.4930229002658
+paper_discharge,GPR,B2_12,B2,466.0,500.8392267216431
+paper_discharge,GPR,B2_13,B2,460.0,595.7671542163915
+paper_discharge,GPR,B2_14,B2,426.0,501.44037337016994
+paper_discharge,GPR,B2_15,B2,396.0,506.7724878591943
+paper_discharge,GPR,B2_16,B2,472.0,663.465010670907
+paper_discharge,GPR,B2_17,B2,471.0,618.4139964691276
+paper_discharge,GPR,B2_18,B2,449.0,612.2906991609733
+paper_discharge,GPR,B2_19,B2,392.0,495.63904521147214
+paper_discharge,GPR,B2_20,B2,489.0,555.8256388853619
+paper_discharge,GPR,B2_21,B2,408.0,537.2365320442397
+paper_discharge,GPR,B2_24,B2,514.0,602.4500442288918
+paper_discharge,GPR,B2_25,B2,493.0,629.4684776362197
+paper_discharge,GPR,B2_26,B2,450.0,596.7098096428664
+paper_discharge,GPR,B2_27,B2,474.0,550.4198773555697
+paper_discharge,GPR,B2_28,B2,437.0,540.4193490483742
+paper_discharge,GPR,B2_29,B2,452.0,571.8348367136981
+paper_discharge,GPR,B2_30,B2,412.0,523.6791478222063
+paper_discharge,GPR,B2_31,B2,425.0,560.6773751038673
+paper_discharge,GPR,B2_32,B2,809.0,917.0685043150679
+paper_discharge,GPR,B2_33,B2,1140.0,984.3776291191448
+paper_discharge,GPR,B2_34,B2,1186.0,1081.089119018181
+paper_discharge,GPR,B2_41,B2,442.0,497.03865143221077
+paper_discharge,GPR,B2_42,B2,474.0,529.1661110783134
+paper_discharge,GPR,B2_43,B2,1029.0,1099.836745255321
+paper_discharge,GPR,B2_44,B2,841.0,1438.532789009421
+paper_discharge,GPR,B2_45,B2,997.0,1156.6386534019248
+paper_discharge,GPR,B2_46,B2,503.0,648.8327227124717
+paper_discharge,GPR,B3_00,B3,1009.0,1017.9190594126094
+paper_discharge,GPR,B3_01,B3,1063.0,1045.228928559189
+paper_discharge,GPR,B3_02,B3,1267.0,774.9009364684393
+paper_discharge,GPR,B3_03,B3,1115.0,854.0799403294117
+paper_discharge,GPR,B3_04,B3,1048.0,1012.9846880070851
+paper_discharge,GPR,B3_05,B3,828.0,915.1467531621211
+paper_discharge,GPR,B3_06,B3,667.0,592.8702445733309
+paper_discharge,GPR,B3_07,B3,1836.0,1304.7189755639006
+paper_discharge,GPR,B3_08,B3,828.0,934.0371477916044
+paper_discharge,GPR,B3_09,B3,1039.0,925.0918822783282
+paper_discharge,GPR,B3_10,B3,1078.0,1158.1419674412887
+paper_discharge,GPR,B3_11,B3,817.0,815.0672627480875
+paper_discharge,GPR,B3_12,B3,932.0,914.4251301993155
+paper_discharge,GPR,B3_13,B3,816.0,890.1008250964435
+paper_discharge,GPR,B3_14,B3,858.0,934.5658299437611
+paper_discharge,GPR,B3_15,B3,876.0,927.118736384989
+paper_discharge,GPR,B3_16,B3,1638.0,1184.6382494849545
+paper_discharge,GPR,B3_17,B3,1315.0,1052.1614796946299
+paper_discharge,GPR,B3_18,B3,1146.0,1026.8161391027484
+paper_discharge,GPR,B3_19,B3,1155.0,1027.803274981296
+paper_discharge,GPR,B3_20,B3,813.0,889.0122487453315
+paper_discharge,GPR,B3_21,B3,772.0,664.5288766622064
+paper_discharge,GPR,B3_22,B3,1002.0,863.1475185447641
+paper_discharge,GPR,B3_24,B3,825.0,819.8808820510858
+paper_discharge,GPR,B3_25,B3,989.0,830.2633247573609
+paper_discharge,GPR,B3_26,B3,1028.0,986.540198092001
+paper_discharge,GPR,B3_27,B3,850.0,855.8935900831574
+paper_discharge,GPR,B3_28,B3,541.0,522.30485493789
+paper_discharge,GPR,B3_29,B3,858.0,831.1204839720302
+paper_discharge,GPR,B3_30,B3,935.0,918.7198521159864
+paper_discharge,GPR,B3_31,B3,731.0,783.8980974368294
+paper_discharge,GPR,B3_33,B3,1284.0,1045.9714411190002
+paper_discharge,GPR,B3_34,B3,1158.0,1055.073423936865
+paper_discharge,GPR,B3_35,B3,1093.0,1029.696049530419
+paper_discharge,GPR,B3_36,B3,923.0,933.9162895961181
+paper_discharge,GPR,B3_37,B3,1390.0,774.9008786432004
+paper_discharge,GPR,B3_38,B3,1935.0,1196.5463145592578
+paper_discharge,GPR,B3_39,B3,1156.0,948.5997955713303
+paper_discharge,GPR,B3_40,B3,796.0,961.0707178629016
+paper_discharge,GPR,B3_41,B3,786.0,813.0328194536578
+paper_discharge,GPR,B3_42,B3,1642.0,774.9008786436092
+paper_discharge,GPR,B3_43,B3,1046.0,775.6687958866027
+paper_discharge,GPR,B3_44,B3,940.0,958.387119875465
+paper_discharge,GPR,B3_45,B3,1801.0,1366.6116526426474
+paper_discharge,RandomForest,B2_00,B2,477.0,619.1878356636286
+paper_discharge,RandomForest,B2_01,B2,491.0,591.586734049547
+paper_discharge,RandomForest,B2_02,B2,424.0,613.3032275602671
+paper_discharge,RandomForest,B2_03,B2,499.0,615.494212197273
+paper_discharge,RandomForest,B2_04,B2,444.0,588.6466315893762
+paper_discharge,RandomForest,B2_05,B2,416.0,581.4187943274388
+paper_discharge,RandomForest,B2_06,B2,393.0,658.6417254067497
+paper_discharge,RandomForest,B2_07,B2,777.0,931.3898361859887
+paper_discharge,RandomForest,B2_08,B2,904.0,975.1105149572384
+paper_discharge,RandomForest,B2_09,B2,791.0,968.0510619218544
+paper_discharge,RandomForest,B2_10,B2,492.0,617.9371807737891
+paper_discharge,RandomForest,B2_11,B2,449.0,619.7500458669691
+paper_discharge,RandomForest,B2_12,B2,466.0,597.5996416051179
+paper_discharge,RandomForest,B2_13,B2,460.0,581.4187943274388
+paper_discharge,RandomForest,B2_14,B2,426.0,574.7015001713361
+paper_discharge,RandomForest,B2_15,B2,396.0,616.545805536703
+paper_discharge,RandomForest,B2_16,B2,472.0,619.8656696474789
+paper_discharge,RandomForest,B2_17,B2,471.0,620.9911705214006
+paper_discharge,RandomForest,B2_18,B2,449.0,679.3506251209925
+paper_discharge,RandomForest,B2_19,B2,392.0,597.5996416051179
+paper_discharge,RandomForest,B2_20,B2,489.0,606.6599338899156
+paper_discharge,RandomForest,B2_21,B2,408.0,597.5996416051179
+paper_discharge,RandomForest,B2_24,B2,514.0,737.7478700728292
+paper_discharge,RandomForest,B2_25,B2,493.0,658.2119220747747
+paper_discharge,RandomForest,B2_26,B2,450.0,581.4187943274388
+paper_discharge,RandomForest,B2_27,B2,474.0,620.8457917798971
+paper_discharge,RandomForest,B2_28,B2,437.0,616.4964430223051
+paper_discharge,RandomForest,B2_29,B2,452.0,621.1202276428685
+paper_discharge,RandomForest,B2_30,B2,412.0,593.2924718384979
+paper_discharge,RandomForest,B2_31,B2,425.0,592.6265756999037
+paper_discharge,RandomForest,B2_32,B2,809.0,967.4263728078124
+paper_discharge,RandomForest,B2_33,B2,1140.0,939.4608088411815
+paper_discharge,RandomForest,B2_34,B2,1186.0,922.9140221193425
+paper_discharge,RandomForest,B2_41,B2,442.0,593.8260039715922
+paper_discharge,RandomForest,B2_42,B2,474.0,612.7948712553017
+paper_discharge,RandomForest,B2_43,B2,1029.0,968.0510619218544
+paper_discharge,RandomForest,B2_44,B2,841.0,987.7430225873283
+paper_discharge,RandomForest,B2_45,B2,997.0,980.125284950079
+paper_discharge,RandomForest,B2_46,B2,503.0,616.5154074707012
+paper_discharge,RandomForest,B3_00,B3,1009.0,936.7657635720701
+paper_discharge,RandomForest,B3_01,B3,1063.0,914.9482062809665
+paper_discharge,RandomForest,B3_02,B3,1267.0,918.2056907688918
+paper_discharge,RandomForest,B3_03,B3,1115.0,898.7023551593322
+paper_discharge,RandomForest,B3_04,B3,1048.0,927.9137213609171
+paper_discharge,RandomForest,B3_05,B3,828.0,932.3356535848917
+paper_discharge,RandomForest,B3_06,B3,667.0,597.5301173902108
+paper_discharge,RandomForest,B3_07,B3,1836.0,932.7119285081533
+paper_discharge,RandomForest,B3_08,B3,828.0,931.9671609549049
+paper_discharge,RandomForest,B3_09,B3,1039.0,885.7906504458816
+paper_discharge,RandomForest,B3_10,B3,1078.0,923.2745842121781
+paper_discharge,RandomForest,B3_11,B3,817.0,869.6459213866186
+paper_discharge,RandomForest,B3_12,B3,932.0,897.5301555664126
+paper_discharge,RandomForest,B3_13,B3,816.0,919.7527426437988
+paper_discharge,RandomForest,B3_14,B3,858.0,889.4892466317214
+paper_discharge,RandomForest,B3_15,B3,876.0,886.1747252108561
+paper_discharge,RandomForest,B3_16,B3,1638.0,918.8293221618553
+paper_discharge,RandomForest,B3_17,B3,1315.0,918.2056907688918
+paper_discharge,RandomForest,B3_18,B3,1146.0,935.4425296955403
+paper_discharge,RandomForest,B3_19,B3,1155.0,938.1258984084366
+paper_discharge,RandomForest,B3_20,B3,813.0,920.8849188187395
+paper_discharge,RandomForest,B3_21,B3,772.0,678.9380212518524
+paper_discharge,RandomForest,B3_22,B3,1002.0,915.333193153816
+paper_discharge,RandomForest,B3_24,B3,825.0,921.6402777619427
+paper_discharge,RandomForest,B3_25,B3,989.0,910.8294836814522
+paper_discharge,RandomForest,B3_26,B3,1028.0,936.5877016723584
+paper_discharge,RandomForest,B3_27,B3,850.0,912.6321835880051
+paper_discharge,RandomForest,B3_28,B3,541.0,593.2534202515527
+paper_discharge,RandomForest,B3_29,B3,858.0,912.6810201099113
+paper_discharge,RandomForest,B3_30,B3,935.0,929.0010140064458
+paper_discharge,RandomForest,B3_31,B3,731.0,864.9856163269942
+paper_discharge,RandomForest,B3_33,B3,1284.0,906.4090273718962
+paper_discharge,RandomForest,B3_34,B3,1158.0,922.9140221193425
+paper_discharge,RandomForest,B3_35,B3,1093.0,914.9482062809665
+paper_discharge,RandomForest,B3_36,B3,923.0,920.6173686768151
+paper_discharge,RandomForest,B3_37,B3,1390.0,918.6530514784646
+paper_discharge,RandomForest,B3_38,B3,1935.0,936.6872689761041
+paper_discharge,RandomForest,B3_39,B3,1156.0,914.3577847558444
+paper_discharge,RandomForest,B3_40,B3,796.0,914.3577847558444
+paper_discharge,RandomForest,B3_41,B3,786.0,910.8294836814522
+paper_discharge,RandomForest,B3_42,B3,1642.0,918.2056907688918
+paper_discharge,RandomForest,B3_43,B3,1046.0,936.6872689761041
+paper_discharge,RandomForest,B3_44,B3,940.0,939.4174860557142
+paper_discharge,RandomForest,B3_45,B3,1801.0,932.0967891063684
+paper_discharge,GradientBoosting,B2_00,B2,477.0,628.9564029582276
+paper_discharge,GradientBoosting,B2_01,B2,491.0,608.391262998821
+paper_discharge,GradientBoosting,B2_02,B2,424.0,607.0449765532297
+paper_discharge,GradientBoosting,B2_03,B2,499.0,569.7840148129558
+paper_discharge,GradientBoosting,B2_04,B2,444.0,631.3403769334257
+paper_discharge,GradientBoosting,B2_05,B2,416.0,599.6463430216227
+paper_discharge,GradientBoosting,B2_06,B2,393.0,613.9376045226086
+paper_discharge,GradientBoosting,B2_07,B2,777.0,940.1097955366561
+paper_discharge,GradientBoosting,B2_08,B2,904.0,920.3012770615222
+paper_discharge,GradientBoosting,B2_09,B2,791.0,930.5325625638266
+paper_discharge,GradientBoosting,B2_10,B2,492.0,628.9564029582276
+paper_discharge,GradientBoosting,B2_11,B2,449.0,628.9564029582276
+paper_discharge,GradientBoosting,B2_12,B2,466.0,625.6206758347121
+paper_discharge,GradientBoosting,B2_13,B2,460.0,599.6463430216227
+paper_discharge,GradientBoosting,B2_14,B2,426.0,591.4592525390688
+paper_discharge,GradientBoosting,B2_15,B2,396.0,595.2921254380474
+paper_discharge,GradientBoosting,B2_16,B2,472.0,652.5471451276866
+paper_discharge,GradientBoosting,B2_17,B2,471.0,637.340684862802
+paper_discharge,GradientBoosting,B2_18,B2,449.0,679.8997481007277
+paper_discharge,GradientBoosting,B2_19,B2,392.0,617.3905718477718
+paper_discharge,GradientBoosting,B2_20,B2,489.0,580.443550689883
+paper_discharge,GradientBoosting,B2_21,B2,408.0,617.3905718477718
+paper_discharge,GradientBoosting,B2_24,B2,514.0,693.9073886741588
+paper_discharge,GradientBoosting,B2_25,B2,493.0,635.1169958574322
+paper_discharge,GradientBoosting,B2_26,B2,450.0,621.1389644660441
+paper_discharge,GradientBoosting,B2_27,B2,474.0,628.9564029582276
+paper_discharge,GradientBoosting,B2_28,B2,437.0,624.3059328637225
+paper_discharge,GradientBoosting,B2_29,B2,452.0,628.9564029582276
+paper_discharge,GradientBoosting,B2_30,B2,412.0,630.197321282838
+paper_discharge,GradientBoosting,B2_31,B2,425.0,608.391262998821
+paper_discharge,GradientBoosting,B2_32,B2,809.0,936.6659491893251
+paper_discharge,GradientBoosting,B2_33,B2,1140.0,879.318438968838
+paper_discharge,GradientBoosting,B2_34,B2,1186.0,873.7889501566962
+paper_discharge,GradientBoosting,B2_41,B2,442.0,594.2137776855044
+paper_discharge,GradientBoosting,B2_42,B2,474.0,597.3820473606517
+paper_discharge,GradientBoosting,B2_43,B2,1029.0,923.202460692379
+paper_discharge,GradientBoosting,B2_44,B2,841.0,923.202460692379
+paper_discharge,GradientBoosting,B2_45,B2,997.0,923.202460692379
+paper_discharge,GradientBoosting,B2_46,B2,503.0,627.0423173797818
+paper_discharge,GradientBoosting,B3_00,B3,1009.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_01,B3,1063.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_02,B3,1267.0,873.7889501566962
+paper_discharge,GradientBoosting,B3_03,B3,1115.0,845.5755593565789
+paper_discharge,GradientBoosting,B3_04,B3,1048.0,876.5551618220964
+paper_discharge,GradientBoosting,B3_05,B3,828.0,919.9726665093638
+paper_discharge,GradientBoosting,B3_06,B3,667.0,578.1830211306012
+paper_discharge,GradientBoosting,B3_07,B3,1836.0,918.3070357446286
+paper_discharge,GradientBoosting,B3_08,B3,828.0,933.389053423849
+paper_discharge,GradientBoosting,B3_09,B3,1039.0,853.0018097166715
+paper_discharge,GradientBoosting,B3_10,B3,1078.0,918.3070357446286
+paper_discharge,GradientBoosting,B3_11,B3,817.0,838.927105347148
+paper_discharge,GradientBoosting,B3_12,B3,932.0,871.7735324408155
+paper_discharge,GradientBoosting,B3_13,B3,816.0,918.3070357446286
+paper_discharge,GradientBoosting,B3_14,B3,858.0,858.3997538800982
+paper_discharge,GradientBoosting,B3_15,B3,876.0,847.4162646290439
+paper_discharge,GradientBoosting,B3_16,B3,1638.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_17,B3,1315.0,873.7889501566962
+paper_discharge,GradientBoosting,B3_18,B3,1146.0,873.7889501566962
+paper_discharge,GradientBoosting,B3_19,B3,1155.0,879.318438968838
+paper_discharge,GradientBoosting,B3_20,B3,813.0,918.3070357446286
+paper_discharge,GradientBoosting,B3_21,B3,772.0,637.890748041431
+paper_discharge,GradientBoosting,B3_22,B3,1002.0,899.683487116854
+paper_discharge,GradientBoosting,B3_24,B3,825.0,933.389053423849
+paper_discharge,GradientBoosting,B3_25,B3,989.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_26,B3,1028.0,892.141946479131
+paper_discharge,GradientBoosting,B3_27,B3,850.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_28,B3,541.0,578.1830211306012
+paper_discharge,GradientBoosting,B3_29,B3,858.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_30,B3,935.0,871.0430495477258
+paper_discharge,GradientBoosting,B3_31,B3,731.0,838.927105347148
+paper_discharge,GradientBoosting,B3_33,B3,1284.0,865.3393685342829
+paper_discharge,GradientBoosting,B3_34,B3,1158.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_35,B3,1093.0,873.7889501566962
+paper_discharge,GradientBoosting,B3_36,B3,923.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_37,B3,1390.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_38,B3,1935.0,873.7889501566962
+paper_discharge,GradientBoosting,B3_39,B3,1156.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_40,B3,796.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_41,B3,786.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_42,B3,1642.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_43,B3,1046.0,886.5318185740642
+paper_discharge,GradientBoosting,B3_44,B3,940.0,933.389053423849
+paper_discharge,GradientBoosting,B3_45,B3,1801.0,886.5318185740642

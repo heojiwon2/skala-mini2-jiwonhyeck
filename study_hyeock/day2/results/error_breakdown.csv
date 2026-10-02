@@ -1,0 +1,4 @@
+group,n,life_median,pred_median,MAPE,bias
+B2 newstructure,9,904.0,1151.8,27.0,24.5
+B2 기존 구조,30,451.0,555.7,25.4,25.4
+B3 (전부 newstructure),44,1005.5,897.0,14.7,-10.2

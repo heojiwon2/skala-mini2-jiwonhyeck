@@ -1,0 +1,9 @@
+,,RMSE,MAPE %,bias %
+최종 (paper_discharge + ElasticNet),B1 CV,72.36,7.07,-0.92
+최종 (paper_discharge + ElasticNet),B1 Hold-out,61.8,6.26,0.69
+최종 (paper_discharge + ElasticNet),Batch 2,174.18,25.79,25.2
+최종 (paper_discharge + ElasticNet),Batch 3,318.15,14.67,-10.16
+기준선 (log_var 선형),B1 CV,91.45,8.85,0.28
+기준선 (log_var 선형),B1 Hold-out,85.68,8.47,-2.04
+기준선 (log_var 선형),Batch 2,163.13,28.56,28.14
+기준선 (log_var 선형),Batch 3,230.4,12.81,1.58

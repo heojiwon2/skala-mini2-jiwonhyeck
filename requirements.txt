@@ -8,3 +8,4 @@ seaborn>=0.13
 scikit-learn>=1.4
 jupyterlab>=4.1
 ipykernel>=6.29
+pyarrow>=15
