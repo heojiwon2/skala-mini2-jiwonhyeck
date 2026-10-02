@@ -21,7 +21,6 @@
 │
 ├── study_hyeock/                  # 심혁
 │   ├── day1_hyeock.ipynb          # Day 1: EDA Q1~Q3
-│   ├── day1_deliverable_Q1-Q3.md  # Day 1 보고서 (시사점 I1 ~ I15 정의)
 │   ├── figures/                   # Day 1 보고서 그림
 │   └── day2/                      # Day 2: 같은 모델링을 스크립트로 구현
 │       ├── src/                   # config · preprocess · features · train · report
@@ -43,6 +42,7 @@ git clone https://github.com/heojiwon2/skala-mini2-jiwonhyeck.git
 cd skala-mini2-jiwonhyeck
 pip install -r requirements.txt
 ```
+- 데이터: [Kaggle – Data-driven prediction of battery cycle life](https://www.kaggle.com/datasets/itshpark/data-driven-prediction-of-battery-cycle)에서 내려받습니다.
 - 원본 `.mat` 파일 4개(`*_batchdata_updated_struct_errorcorrect.mat`)를 `archive/`에 둡니다.
 - 노트북: `study_jiwon/day_1_jiwon.ipynb` → `study_jiwon/day_2_jiwon.ipynb` 순서로 위에서부터 실행합니다.
 - 스크립트: `cd study_hyeock/day2` 후 `run_features.py` → `run_experiments.py` → `run_stability.py` → `run_final.py` 순서로 실행합니다.
@@ -184,6 +184,8 @@ Day 1 설계(Target, 누수 방지, 정책 GroupKFold, 기준선, 후보 모델)
 | | Gap (Batch2-Batch3) | 11.12 | Test 성능 간 비교 |
 | | Gap (Target-Test) | 5.57 | Batch 3 기준, 원논문 성능 비교 |
 
+> **Gap** = 뒤 단계 MAPE − 앞 단계 MAPE (%p). 예) Train-Valid = 6.26 − 7.07 = −0.81, Target-Test = 25.79 − 9.1 = 16.69. 단, Batch2-Batch3은 Batch 2 − Batch 3입니다. 값이 클수록 뒤 단계(새 데이터)에서 오차가 더 커졌다는 뜻입니다.
+
 - Batch 1 안에서는 원논문(9.1%)보다 낮은 오차를 냈고 과적합 징후도 없지만, Batch 2에서는 원논문보다 16.69%p 높습니다.
 - 보조 지표(`study_jiwon/results/metrics_by_set.csv`) : 최종 모델은 기준선(`log_var` 선형)보다 Batch 1(CV 7.07 vs 8.85)과 Batch 2(25.79 vs 28.56)에서 낫지만, Batch 3에서는 기준선이 더 낫습니다(12.81 vs 14.67).
 
@@ -196,6 +198,7 @@ Day 1 설계(Target, 누수 방지, 정책 GroupKFold, 기준선, 후보 모델)
 <img src="study_jiwon/figures/day2_10-2_error_by_group.png" width="80%">
 
 <img src="study_jiwon/figures/day2_10-4_batch3_dq_peak.png" width="80%">
+
 - **개선 방향** — 배치별 `Qdlin` 시작점을 맞추는 곡선 정렬 전처리, 여러 배치를 함께 학습하는 구조, 새 배치마다 일부 셀로 기준선을 보정하는 절차. 사후 실험으로 `log_var`를 빼면 Batch 1 성능은 그대로이고 Batch 3 MAPE가 14.67 → 11.27로 줄었지만, 테스트를 본 뒤의 아이디어라 후보 개선안으로만 남겼습니다.
 
 ## ESS 도메인 해석
