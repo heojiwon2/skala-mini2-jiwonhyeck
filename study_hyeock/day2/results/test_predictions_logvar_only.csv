@@ -1,0 +1,499 @@
+feature_set,model,cell_id,batch,y,pred
+logvar_only,Dummy (평균),B2_00,B2,477.0,774.9008786431996
+logvar_only,Dummy (평균),B2_01,B2,491.0,774.9008786431996
+logvar_only,Dummy (평균),B2_02,B2,424.0,774.9008786431996
+logvar_only,Dummy (평균),B2_03,B2,499.0,774.9008786431996
+logvar_only,Dummy (평균),B2_04,B2,444.0,774.9008786431996
+logvar_only,Dummy (평균),B2_05,B2,416.0,774.9008786431996
+logvar_only,Dummy (평균),B2_06,B2,393.0,774.9008786431996
+logvar_only,Dummy (평균),B2_07,B2,777.0,774.9008786431996
+logvar_only,Dummy (평균),B2_08,B2,904.0,774.9008786431996
+logvar_only,Dummy (평균),B2_09,B2,791.0,774.9008786431996
+logvar_only,Dummy (평균),B2_10,B2,492.0,774.9008786431996
+logvar_only,Dummy (평균),B2_11,B2,449.0,774.9008786431996
+logvar_only,Dummy (평균),B2_12,B2,466.0,774.9008786431996
+logvar_only,Dummy (평균),B2_13,B2,460.0,774.9008786431996
+logvar_only,Dummy (평균),B2_14,B2,426.0,774.9008786431996
+logvar_only,Dummy (평균),B2_15,B2,396.0,774.9008786431996
+logvar_only,Dummy (평균),B2_16,B2,472.0,774.9008786431996
+logvar_only,Dummy (평균),B2_17,B2,471.0,774.9008786431996
+logvar_only,Dummy (평균),B2_18,B2,449.0,774.9008786431996
+logvar_only,Dummy (평균),B2_19,B2,392.0,774.9008786431996
+logvar_only,Dummy (평균),B2_20,B2,489.0,774.9008786431996
+logvar_only,Dummy (평균),B2_21,B2,408.0,774.9008786431996
+logvar_only,Dummy (평균),B2_24,B2,514.0,774.9008786431996
+logvar_only,Dummy (평균),B2_25,B2,493.0,774.9008786431996
+logvar_only,Dummy (평균),B2_26,B2,450.0,774.9008786431996
+logvar_only,Dummy (평균),B2_27,B2,474.0,774.9008786431996
+logvar_only,Dummy (평균),B2_28,B2,437.0,774.9008786431996
+logvar_only,Dummy (평균),B2_29,B2,452.0,774.9008786431996
+logvar_only,Dummy (평균),B2_30,B2,412.0,774.9008786431996
+logvar_only,Dummy (평균),B2_31,B2,425.0,774.9008786431996
+logvar_only,Dummy (평균),B2_32,B2,809.0,774.9008786431996
+logvar_only,Dummy (평균),B2_33,B2,1140.0,774.9008786431996
+logvar_only,Dummy (평균),B2_34,B2,1186.0,774.9008786431996
+logvar_only,Dummy (평균),B2_41,B2,442.0,774.9008786431996
+logvar_only,Dummy (평균),B2_42,B2,474.0,774.9008786431996
+logvar_only,Dummy (평균),B2_43,B2,1029.0,774.9008786431996
+logvar_only,Dummy (평균),B2_44,B2,841.0,774.9008786431996
+logvar_only,Dummy (평균),B2_45,B2,997.0,774.9008786431996
+logvar_only,Dummy (평균),B2_46,B2,503.0,774.9008786431996
+logvar_only,Dummy (평균),B3_00,B3,1009.0,774.9008786431996
+logvar_only,Dummy (평균),B3_01,B3,1063.0,774.9008786431996
+logvar_only,Dummy (평균),B3_02,B3,1267.0,774.9008786431996
+logvar_only,Dummy (평균),B3_03,B3,1115.0,774.9008786431996
+logvar_only,Dummy (평균),B3_04,B3,1048.0,774.9008786431996
+logvar_only,Dummy (평균),B3_05,B3,828.0,774.9008786431996
+logvar_only,Dummy (평균),B3_06,B3,667.0,774.9008786431996
+logvar_only,Dummy (평균),B3_07,B3,1836.0,774.9008786431996
+logvar_only,Dummy (평균),B3_08,B3,828.0,774.9008786431996
+logvar_only,Dummy (평균),B3_09,B3,1039.0,774.9008786431996
+logvar_only,Dummy (평균),B3_10,B3,1078.0,774.9008786431996
+logvar_only,Dummy (평균),B3_11,B3,817.0,774.9008786431996
+logvar_only,Dummy (평균),B3_12,B3,932.0,774.9008786431996
+logvar_only,Dummy (평균),B3_13,B3,816.0,774.9008786431996
+logvar_only,Dummy (평균),B3_14,B3,858.0,774.9008786431996
+logvar_only,Dummy (평균),B3_15,B3,876.0,774.9008786431996
+logvar_only,Dummy (평균),B3_16,B3,1638.0,774.9008786431996
+logvar_only,Dummy (평균),B3_17,B3,1315.0,774.9008786431996
+logvar_only,Dummy (평균),B3_18,B3,1146.0,774.9008786431996
+logvar_only,Dummy (평균),B3_19,B3,1155.0,774.9008786431996
+logvar_only,Dummy (평균),B3_20,B3,813.0,774.9008786431996
+logvar_only,Dummy (평균),B3_21,B3,772.0,774.9008786431996
+logvar_only,Dummy (평균),B3_22,B3,1002.0,774.9008786431996
+logvar_only,Dummy (평균),B3_24,B3,825.0,774.9008786431996
+logvar_only,Dummy (평균),B3_25,B3,989.0,774.9008786431996
+logvar_only,Dummy (평균),B3_26,B3,1028.0,774.9008786431996
+logvar_only,Dummy (평균),B3_27,B3,850.0,774.9008786431996
+logvar_only,Dummy (평균),B3_28,B3,541.0,774.9008786431996
+logvar_only,Dummy (평균),B3_29,B3,858.0,774.9008786431996
+logvar_only,Dummy (평균),B3_30,B3,935.0,774.9008786431996
+logvar_only,Dummy (평균),B3_31,B3,731.0,774.9008786431996
+logvar_only,Dummy (평균),B3_33,B3,1284.0,774.9008786431996
+logvar_only,Dummy (평균),B3_34,B3,1158.0,774.9008786431996
+logvar_only,Dummy (평균),B3_35,B3,1093.0,774.9008786431996
+logvar_only,Dummy (평균),B3_36,B3,923.0,774.9008786431996
+logvar_only,Dummy (평균),B3_37,B3,1390.0,774.9008786431996
+logvar_only,Dummy (평균),B3_38,B3,1935.0,774.9008786431996
+logvar_only,Dummy (평균),B3_39,B3,1156.0,774.9008786431996
+logvar_only,Dummy (평균),B3_40,B3,796.0,774.9008786431996
+logvar_only,Dummy (평균),B3_41,B3,786.0,774.9008786431996
+logvar_only,Dummy (평균),B3_42,B3,1642.0,774.9008786431996
+logvar_only,Dummy (평균),B3_43,B3,1046.0,774.9008786431996
+logvar_only,Dummy (평균),B3_44,B3,940.0,774.9008786431996
+logvar_only,Dummy (평균),B3_45,B3,1801.0,774.9008786431996
+logvar_only,Linear,B2_00,B2,477.0,629.4923849933265
+logvar_only,Linear,B2_01,B2,491.0,553.028078323216
+logvar_only,Linear,B2_02,B2,424.0,617.9593430190528
+logvar_only,Linear,B2_03,B2,499.0,633.3725425652964
+logvar_only,Linear,B2_04,B2,444.0,528.7668251279631
+logvar_only,Linear,B2_05,B2,416.0,478.27777159691465
+logvar_only,Linear,B2_06,B2,393.0,648.1943302953397
+logvar_only,Linear,B2_07,B2,777.0,1047.763841271717
+logvar_only,Linear,B2_08,B2,904.0,959.0578919926859
+logvar_only,Linear,B2_09,B2,791.0,1131.826276310272
+logvar_only,Linear,B2_10,B2,492.0,614.0180730298295
+logvar_only,Linear,B2_11,B2,449.0,628.6865350606708
+logvar_only,Linear,B2_12,B2,466.0,505.9181746650397
+logvar_only,Linear,B2_13,B2,460.0,570.8715530529633
+logvar_only,Linear,B2_14,B2,426.0,489.0821882672252
+logvar_only,Linear,B2_15,B2,396.0,642.1061729364117
+logvar_only,Linear,B2_16,B2,472.0,632.7823821586377
+logvar_only,Linear,B2_17,B2,471.0,635.1528996230578
+logvar_only,Linear,B2_18,B2,449.0,731.8065645937431
+logvar_only,Linear,B2_19,B2,392.0,550.7264600574654
+logvar_only,Linear,B2_20,B2,489.0,609.9990450486578
+logvar_only,Linear,B2_21,B2,408.0,563.970917388109
+logvar_only,Linear,B2_24,B2,514.0,699.2844108974203
+logvar_only,Linear,B2_25,B2,493.0,650.1663473493979
+logvar_only,Linear,B2_26,B2,450.0,524.9972232271604
+logvar_only,Linear,B2_27,B2,474.0,629.0353498937944
+logvar_only,Linear,B2_28,B2,437.0,602.573631149393
+logvar_only,Linear,B2_29,B2,452.0,638.5982847406655
+logvar_only,Linear,B2_30,B2,412.0,511.9937259975447
+logvar_only,Linear,B2_31,B2,425.0,573.9710172871446
+logvar_only,Linear,B2_32,B2,809.0,978.313384926198
+logvar_only,Linear,B2_33,B2,1140.0,1047.733886770638
+logvar_only,Linear,B2_34,B2,1186.0,1215.4608206360954
+logvar_only,Linear,B2_41,B2,442.0,507.4431704651285
+logvar_only,Linear,B2_42,B2,474.0,627.4804627863008
+logvar_only,Linear,B2_43,B2,1029.0,1076.927748697381
+logvar_only,Linear,B2_44,B2,841.0,1147.5029238677582
+logvar_only,Linear,B2_45,B2,997.0,1008.0503702862003
+logvar_only,Linear,B2_46,B2,503.0,638.8723733153221
+logvar_only,Linear,B3_00,B3,1009.0,1057.4499955815959
+logvar_only,Linear,B3_01,B3,1063.0,1087.1186120116179
+logvar_only,Linear,B3_02,B3,1267.0,1524.2956636753972
+logvar_only,Linear,B3_03,B3,1115.0,968.4146961372436
+logvar_only,Linear,B3_04,B3,1048.0,1010.2956997113794
+logvar_only,Linear,B3_05,B3,828.0,966.9683129681318
+logvar_only,Linear,B3_06,B3,667.0,646.2755121776956
+logvar_only,Linear,B3_07,B3,1836.0,1249.3311065015441
+logvar_only,Linear,B3_08,B3,828.0,952.1128578793731
+logvar_only,Linear,B3_09,B3,1039.0,883.360061850618
+logvar_only,Linear,B3_10,B3,1078.0,1184.8807595538076
+logvar_only,Linear,B3_11,B3,817.0,826.4051396164091
+logvar_only,Linear,B3_12,B3,932.0,862.1510974290787
+logvar_only,Linear,B3_13,B3,816.0,953.8496407762849
+logvar_only,Linear,B3_14,B3,858.0,893.9251934091576
+logvar_only,Linear,B3_15,B3,876.0,894.5474810303276
+logvar_only,Linear,B3_16,B3,1638.0,1438.2773722409383
+logvar_only,Linear,B3_17,B3,1315.0,1208.1024162120684
+logvar_only,Linear,B3_18,B3,1146.0,1063.938153629553
+logvar_only,Linear,B3_19,B3,1155.0,1005.7946446652923
+logvar_only,Linear,B3_20,B3,813.0,935.6658444157771
+logvar_only,Linear,B3_21,B3,772.0,730.3174474388908
+logvar_only,Linear,B3_22,B3,1002.0,923.2468069362242
+logvar_only,Linear,B3_24,B3,825.0,994.3726681971792
+logvar_only,Linear,B3_25,B3,989.0,988.4730447754498
+logvar_only,Linear,B3_26,B3,1028.0,1039.077824810837
+logvar_only,Linear,B3_27,B3,850.0,977.4206564279021
+logvar_only,Linear,B3_28,B3,541.0,614.336618384347
+logvar_only,Linear,B3_29,B3,858.0,933.8945000360486
+logvar_only,Linear,B3_30,B3,935.0,957.6168727602499
+logvar_only,Linear,B3_31,B3,731.0,801.1655877581328
+logvar_only,Linear,B3_33,B3,1284.0,1172.4110703419353
+logvar_only,Linear,B3_34,B3,1158.0,1102.1903552401718
+logvar_only,Linear,B3_35,B3,1093.0,1050.0526915403825
+logvar_only,Linear,B3_36,B3,923.0,1063.5056319241667
+logvar_only,Linear,B3_37,B3,1390.0,1896.8481740568168
+logvar_only,Linear,B3_38,B3,1935.0,1129.9897661113605
+logvar_only,Linear,B3_39,B3,1156.0,1220.5042202225643
+logvar_only,Linear,B3_40,B3,796.0,1094.2593730447495
+logvar_only,Linear,B3_41,B3,786.0,1039.0792164981278
+logvar_only,Linear,B3_42,B3,1642.0,1133.1974916130323
+logvar_only,Linear,B3_43,B3,1046.0,1110.5871509581386
+logvar_only,Linear,B3_44,B3,940.0,978.333049274844
+logvar_only,Linear,B3_45,B3,1801.0,1277.09078660075
+logvar_only,ElasticNet,B2_00,B2,477.0,629.8016331412068
+logvar_only,ElasticNet,B2_01,B2,491.0,553.4691308804421
+logvar_only,ElasticNet,B2_02,B2,424.0,618.2899441085863
+logvar_only,ElasticNet,B2_03,B2,499.0,633.6744942507408
+logvar_only,ElasticNet,B2_04,B2,444.0,529.2446367224729
+logvar_only,ElasticNet,B2_05,B2,416.0,478.82350941813263
+logvar_only,ElasticNet,B2_06,B2,393.0,648.4678970394673
+logvar_only,ElasticNet,B2_07,B2,777.0,1047.017095874631
+logvar_only,ElasticNet,B2_08,B2,904.0,958.5747490694386
+logvar_only,ElasticNet,B2_09,B2,791.0,1130.813355532423
+logvar_only,ElasticNet,B2_10,B2,492.0,614.3558552796308
+logvar_only,ElasticNet,B2_11,B2,449.0,628.9972915094888
+logvar_only,ElasticNet,B2_12,B2,466.0,506.42820441680163
+logvar_only,ElasticNet,B2_13,B2,460.0,571.2839609568283
+logvar_only,ElasticNet,B2_14,B2,426.0,489.6144052690743
+logvar_only,ElasticNet,B2_15,B2,396.0,642.3914968016968
+logvar_only,ElasticNet,B2_16,B2,472.0,633.0854472383936
+logvar_only,ElasticNet,B2_17,B2,471.0,635.4514846399064
+logvar_only,ElasticNet,B2_18,B2,449.0,731.9055303488627
+logvar_only,ElasticNet,B2_19,B2,392.0,551.1711094684312
+logvar_only,ElasticNet,B2_20,B2,489.0,610.3440886771958
+logvar_only,ElasticNet,B2_21,B2,408.0,564.3945614320897
+logvar_only,ElasticNet,B2_24,B2,514.0,699.4541187519609
+logvar_only,ElasticNet,B2_25,B2,493.0,650.4360768590433
+logvar_only,ElasticNet,B2_26,B2,450.0,525.4805134664228
+logvar_only,ElasticNet,B2_27,B2,474.0,629.3454537684139
+logvar_only,ElasticNet,B2_28,B2,437.0,602.9319260133757
+logvar_only,ElasticNet,B2_29,B2,452.0,638.8903211046063
+logvar_only,ElasticNet,B2_30,B2,412.0,512.4954220662518
+logvar_only,ElasticNet,B2_31,B2,425.0,574.3783142124304
+logvar_only,ElasticNet,B2_32,B2,809.0,977.7746055237095
+logvar_only,ElasticNet,B2_33,B2,1140.0,1046.9872334624024
+logvar_only,ElasticNet,B2_34,B2,1186.0,1214.1684690601726
+logvar_only,ElasticNet,B2_41,B2,442.0,507.9511245237257
+logvar_only,ElasticNet,B2_42,B2,474.0,627.7934720748199
+logvar_only,ElasticNet,B2_43,B2,1029.0,1076.0903964838137
+logvar_only,ElasticNet,B2_44,B2,841.0,1146.4387032645682
+logvar_only,ElasticNet,B2_45,B2,997.0,1007.4239208680175
+logvar_only,ElasticNet,B2_46,B2,503.0,639.1638868324222
+logvar_only,ElasticNet,B3_00,B3,1009.0,1056.6733666411174
+logvar_only,ElasticNet,B3_01,B3,1063.0,1086.2491573851967
+logvar_only,ElasticNet,B3_02,B3,1267.0,1521.8604144897558
+logvar_only,ElasticNet,B3_03,B3,1115.0,967.9046304989917
+logvar_only,ElasticNet,B3_04,B3,1048.0,1009.6625459526268
+logvar_only,ElasticNet,B3_05,B3,828.0,966.4624230399378
+logvar_only,ElasticNet,B3_06,B3,667.0,646.5527990562464
+logvar_only,ElasticNet,B3_07,B3,1836.0,1247.9216800177066
+logvar_only,ElasticNet,B3_08,B3,828.0,951.6495592073759
+logvar_only,ElasticNet,B3_09,B3,1039.0,883.0866267896907
+logvar_only,ElasticNet,B3_10,B3,1078.0,1183.6922019914118
+logvar_only,ElasticNet,B3_11,B3,817.0,826.279470543589
+logvar_only,ElasticNet,B3_12,B3,932.0,861.9337301425539
+logvar_only,ElasticNet,B3_13,B3,816.0,953.3813907035805
+logvar_only,ElasticNet,B3_14,B3,858.0,893.6233787964621
+logvar_only,ElasticNet,B3_15,B3,876.0,894.2439856463018
+logvar_only,ElasticNet,B3_16,B3,1638.0,1436.1766864205333
+logvar_only,ElasticNet,B3_17,B3,1315.0,1206.8352076350561
+logvar_only,ElasticNet,B3_18,B3,1146.0,1063.1413905206364
+logvar_only,ElasticNet,B3_19,B3,1155.0,1005.174918763513
+logvar_only,ElasticNet,B3_20,B3,813.0,935.2490625543574
+logvar_only,ElasticNet,B3_21,B3,772.0,730.4197279524107
+logvar_only,ElasticNet,B3_22,B3,1002.0,922.8646987952249
+logvar_only,ElasticNet,B3_24,B3,825.0,993.786803592214
+logvar_only,ElasticNet,B3_25,B3,989.0,987.9045491854331
+logvar_only,ElasticNet,B3_26,B3,1028.0,1038.3576979855618
+logvar_only,ElasticNet,B3_27,B3,850.0,976.8844763390002
+logvar_only,ElasticNet,B3_28,B3,541.0,614.6738224427462
+logvar_only,ElasticNet,B3_29,B3,858.0,933.4826876085381
+logvar_only,ElasticNet,B3_30,B3,935.0,957.1378570766625
+logvar_only,ElasticNet,B3_31,B3,731.0,801.1024784778709
+logvar_only,ElasticNet,B3_33,B3,1284.0,1171.2643061871547
+logvar_only,ElasticNet,B3_34,B3,1158.0,1101.2730109134557
+logvar_only,ElasticNet,B3_35,B3,1093.0,1049.2989035887986
+logvar_only,ElasticNet,B3_36,B3,923.0,1062.7102139306212
+logvar_only,ElasticNet,B3_37,B3,1390.0,1892.8393242074744
+logvar_only,ElasticNet,B3_38,B3,1935.0,1128.9828217445197
+logvar_only,ElasticNet,B3_39,B3,1156.0,1219.1945751706537
+logvar_only,ElasticNet,B3_40,B3,796.0,1093.3672899598048
+logvar_only,ElasticNet,B3_41,B3,786.0,1038.3590854216477
+logvar_only,ElasticNet,B3_42,B3,1642.0,1132.1801040190444
+logvar_only,ElasticNet,B3_43,B3,1046.0,1109.6429152145993
+logvar_only,ElasticNet,B3_44,B3,940.0,977.7942125950265
+logvar_only,ElasticNet,B3_45,B3,1801.0,1275.583791617295
+logvar_only,GPR,B2_00,B2,477.0,623.6681486139092
+logvar_only,GPR,B2_01,B2,491.0,564.0029093425962
+logvar_only,GPR,B2_02,B2,424.0,612.7019419019989
+logvar_only,GPR,B2_03,B2,499.0,627.4825313980606
+logvar_only,GPR,B2_04,B2,444.0,552.8450042888402
+logvar_only,GPR,B2_05,B2,416.0,544.7159989994625
+logvar_only,GPR,B2_06,B2,393.0,642.5731287024424
+logvar_only,GPR,B2_07,B2,777.0,962.4131230715317
+logvar_only,GPR,B2_08,B2,904.0,937.2463790364154
+logvar_only,GPR,B2_09,B2,791.0,963.564944989763
+logvar_only,GPR,B2_10,B2,492.0,609.089965311921
+logvar_only,GPR,B2_11,B2,449.0,622.8835646094315
+logvar_only,GPR,B2_12,B2,466.0,546.5055637973312
+logvar_only,GPR,B2_13,B2,460.0,574.8623320261853
+logvar_only,GPR,B2_14,B2,426.0,544.6206663256003
+logvar_only,GPR,B2_15,B2,396.0,636.2795624564469
+logvar_only,GPR,B2_16,B2,472.0,626.8985204855807
+logvar_only,GPR,B2_17,B2,471.0,629.2525473300893
+logvar_only,GPR,B2_18,B2,449.0,737.0724812185332
+logvar_only,GPR,B2_19,B2,392.0,562.7602447299909
+logvar_only,GPR,B2_20,B2,489.0,605.4821240407846
+logvar_only,GPR,B2_21,B2,408.0,570.4109497097228
+logvar_only,GPR,B2_24,B2,514.0,699.2154739623396
+logvar_only,GPR,B2_25,B2,493.0,644.6381671030325
+logvar_only,GPR,B2_26,B2,450.0,551.5106033034078
+logvar_only,GPR,B2_27,B2,474.0,623.2228484822448
+logvar_only,GPR,B2_28,B2,437.0,599.025500858967
+logvar_only,GPR,B2_29,B2,452.0,632.7122058368104
+logvar_only,GPR,B2_30,B2,412.0,547.7763144950884
+logvar_only,GPR,B2_31,B2,425.0,576.9611903647989
+logvar_only,GPR,B2_32,B2,809.0,945.2196072874722
+logvar_only,GPR,B2_33,B2,1140.0,962.4092624294057
+logvar_only,GPR,B2_34,B2,1186.0,950.7475166095064
+logvar_only,GPR,B2_41,B2,442.0,546.7956102886668
+logvar_only,GPR,B2_42,B2,474.0,621.7143072888019
+logvar_only,GPR,B2_43,B2,1029.0,964.8980797011988
+logvar_only,GPR,B2_44,B2,841.0,961.9948460207592
+logvar_only,GPR,B2_45,B2,997.0,954.6958252643161
+logvar_only,GPR,B2_46,B2,503.0,632.9893314919813
+logvar_only,GPR,B3_00,B3,1009.0,963.5165291522678
+logvar_only,GPR,B3_01,B3,1063.0,965.2026711388108
+logvar_only,GPR,B3_02,B3,1267.0,872.3609006886928
+logvar_only,GPR,B3_03,B3,1115.0,941.3065575340117
+logvar_only,GPR,B3_04,B3,1048.0,955.2775428645324
+logvar_only,GPR,B3_05,B3,828.0,940.7020435934236
+logvar_only,GPR,B3_06,B3,667.0,640.5760162526992
+logvar_only,GPR,B3_07,B3,1836.0,943.2003325173042
+logvar_only,GPR,B3_08,B3,828.0,934.002123802605
+logvar_only,GPR,B3_09,B3,1039.0,891.017202311787
+logvar_only,GPR,B3_10,B3,1078.0,956.5823619590014
+logvar_only,GPR,B3_11,B3,817.0,840.9349345906063
+logvar_only,GPR,B3_12,B3,932.0,873.8078764447955
+logvar_only,GPR,B3_13,B3,816.0,934.8319975352166
+logvar_only,GPR,B3_14,B3,858.0,898.9092496071374
+logvar_only,GPR,B3_15,B3,876.0,899.3596981435862
+logvar_only,GPR,B3_16,B3,1638.0,893.6158655467598
+logvar_only,GPR,B3_17,B3,1315.0,952.2481333914501
+logvar_only,GPR,B3_18,B3,1146.0,964.0978299989235
+logvar_only,GPR,B3_19,B3,1155.0,954.0930053301212
+logvar_only,GPR,B3_20,B3,813.0,925.5234956682859
+logvar_only,GPR,B3_21,B3,772.0,735.3354058139296
+logvar_only,GPR,B3_22,B3,1002.0,918.3713047509816
+logvar_only,GPR,B3_24,B3,825.0,950.7526715646377
+logvar_only,GPR,B3_25,B3,989.0,948.8353913224098
+logvar_only,GPR,B3_26,B3,1028.0,961.1747129206736
+logvar_only,GPR,B3_27,B3,850.0,944.8826313222389
+logvar_only,GPR,B3_28,B3,541.0,609.3792105789478
+logvar_only,GPR,B3_29,B3,858.0,924.5430024443202
+logvar_only,GPR,B3_30,B3,935.0,936.5894795502953
+logvar_only,GPR,B3_31,B3,731.0,815.1567706182649
+logvar_only,GPR,B3_33,B3,1284.0,958.6237254042762
+logvar_only,GPR,B3_34,B3,1158.0,965.165888481258
+logvar_only,GPR,B3_35,B3,1093.0,962.6998535117913
+logvar_only,GPR,B3_36,B3,923.0,964.0629229871968
+logvar_only,GPR,B3_37,B3,1390.0,811.4870454843865
+logvar_only,GPR,B3_38,B3,1935.0,963.7181057482895
+logvar_only,GPR,B3_39,B3,1156.0,949.6874640967952
+logvar_only,GPR,B3_40,B3,796.0,965.2554487992709
+logvar_only,GPR,B3_41,B3,786.0,961.1749306903998
+logvar_only,GPR,B3_42,B3,1642.0,963.4462434897074
+logvar_only,GPR,B3_43,B3,1046.0,964.9085149548774
+logvar_only,GPR,B3_44,B3,940.0,945.2269946467893
+logvar_only,GPR,B3_45,B3,1801.0,936.4068590874077
+logvar_only,RandomForest,B2_00,B2,477.0,596.208125572093
+logvar_only,RandomForest,B2_01,B2,491.0,591.3627443026226
+logvar_only,RandomForest,B2_02,B2,424.0,595.047167332217
+logvar_only,RandomForest,B2_03,B2,499.0,596.9743091883805
+logvar_only,RandomForest,B2_04,B2,444.0,591.3627443026226
+logvar_only,RandomForest,B2_05,B2,416.0,591.3627443026226
+logvar_only,RandomForest,B2_06,B2,393.0,626.1757791046476
+logvar_only,RandomForest,B2_07,B2,777.0,956.2781170266883
+logvar_only,RandomForest,B2_08,B2,904.0,956.2781170266883
+logvar_only,RandomForest,B2_09,B2,791.0,956.2781170266883
+logvar_only,RandomForest,B2_10,B2,492.0,595.047167332217
+logvar_only,RandomForest,B2_11,B2,449.0,596.208125572093
+logvar_only,RandomForest,B2_12,B2,466.0,591.3627443026226
+logvar_only,RandomForest,B2_13,B2,460.0,591.3627443026226
+logvar_only,RandomForest,B2_14,B2,426.0,591.3627443026226
+logvar_only,RandomForest,B2_15,B2,396.0,596.9743091883805
+logvar_only,RandomForest,B2_16,B2,472.0,596.9743091883805
+logvar_only,RandomForest,B2_17,B2,471.0,596.9743091883805
+logvar_only,RandomForest,B2_18,B2,449.0,701.6055168623437
+logvar_only,RandomForest,B2_19,B2,392.0,591.3627443026226
+logvar_only,RandomForest,B2_20,B2,489.0,595.047167332217
+logvar_only,RandomForest,B2_21,B2,408.0,591.3627443026226
+logvar_only,RandomForest,B2_24,B2,514.0,702.3665718074936
+logvar_only,RandomForest,B2_25,B2,493.0,627.5727118154135
+logvar_only,RandomForest,B2_26,B2,450.0,591.3627443026226
+logvar_only,RandomForest,B2_27,B2,474.0,596.208125572093
+logvar_only,RandomForest,B2_28,B2,437.0,593.143095391635
+logvar_only,RandomForest,B2_29,B2,452.0,596.9743091883805
+logvar_only,RandomForest,B2_30,B2,412.0,591.3627443026226
+logvar_only,RandomForest,B2_31,B2,425.0,591.3627443026226
+logvar_only,RandomForest,B2_32,B2,809.0,956.2781170266883
+logvar_only,RandomForest,B2_33,B2,1140.0,956.2781170266883
+logvar_only,RandomForest,B2_34,B2,1186.0,956.2781170266883
+logvar_only,RandomForest,B2_41,B2,442.0,591.3627443026226
+logvar_only,RandomForest,B2_42,B2,474.0,596.208125572093
+logvar_only,RandomForest,B2_43,B2,1029.0,956.2781170266883
+logvar_only,RandomForest,B2_44,B2,841.0,956.2781170266883
+logvar_only,RandomForest,B2_45,B2,997.0,956.2781170266883
+logvar_only,RandomForest,B2_46,B2,503.0,596.9743091883805
+logvar_only,RandomForest,B3_00,B3,1009.0,956.2781170266883
+logvar_only,RandomForest,B3_01,B3,1063.0,956.2781170266883
+logvar_only,RandomForest,B3_02,B3,1267.0,956.2781170266883
+logvar_only,RandomForest,B3_03,B3,1115.0,956.2781170266883
+logvar_only,RandomForest,B3_04,B3,1048.0,956.2781170266883
+logvar_only,RandomForest,B3_05,B3,828.0,956.2781170266883
+logvar_only,RandomForest,B3_06,B3,667.0,604.8536175398352
+logvar_only,RandomForest,B3_07,B3,1836.0,956.2781170266883
+logvar_only,RandomForest,B3_08,B3,828.0,956.5563029309478
+logvar_only,RandomForest,B3_09,B3,1039.0,871.1467339791777
+logvar_only,RandomForest,B3_10,B3,1078.0,956.2781170266883
+logvar_only,RandomForest,B3_11,B3,817.0,851.885753248894
+logvar_only,RandomForest,B3_12,B3,932.0,872.0042213506267
+logvar_only,RandomForest,B3_13,B3,816.0,956.5563029309478
+logvar_only,RandomForest,B3_14,B3,858.0,871.1467339791777
+logvar_only,RandomForest,B3_15,B3,876.0,871.1467339791777
+logvar_only,RandomForest,B3_16,B3,1638.0,956.2781170266883
+logvar_only,RandomForest,B3_17,B3,1315.0,956.2781170266883
+logvar_only,RandomForest,B3_18,B3,1146.0,956.2781170266883
+logvar_only,RandomForest,B3_19,B3,1155.0,956.2781170266883
+logvar_only,RandomForest,B3_20,B3,813.0,962.1071135463801
+logvar_only,RandomForest,B3_21,B3,772.0,701.6055168623437
+logvar_only,RandomForest,B3_22,B3,1002.0,938.9993357999364
+logvar_only,RandomForest,B3_24,B3,825.0,956.2781170266883
+logvar_only,RandomForest,B3_25,B3,989.0,956.2781170266883
+logvar_only,RandomForest,B3_26,B3,1028.0,956.2781170266883
+logvar_only,RandomForest,B3_27,B3,850.0,956.2781170266883
+logvar_only,RandomForest,B3_28,B3,541.0,595.047167332217
+logvar_only,RandomForest,B3_29,B3,858.0,962.1071135463801
+logvar_only,RandomForest,B3_30,B3,935.0,956.5563029309478
+logvar_only,RandomForest,B3_31,B3,731.0,850.0090220869434
+logvar_only,RandomForest,B3_33,B3,1284.0,956.2781170266883
+logvar_only,RandomForest,B3_34,B3,1158.0,956.2781170266883
+logvar_only,RandomForest,B3_35,B3,1093.0,956.2781170266883
+logvar_only,RandomForest,B3_36,B3,923.0,956.2781170266883
+logvar_only,RandomForest,B3_37,B3,1390.0,956.2781170266883
+logvar_only,RandomForest,B3_38,B3,1935.0,956.2781170266883
+logvar_only,RandomForest,B3_39,B3,1156.0,956.2781170266883
+logvar_only,RandomForest,B3_40,B3,796.0,956.2781170266883
+logvar_only,RandomForest,B3_41,B3,786.0,956.2781170266883
+logvar_only,RandomForest,B3_42,B3,1642.0,956.2781170266883
+logvar_only,RandomForest,B3_43,B3,1046.0,956.2781170266883
+logvar_only,RandomForest,B3_44,B3,940.0,956.2781170266883
+logvar_only,RandomForest,B3_45,B3,1801.0,956.2781170266883
+logvar_only,GradientBoosting,B2_00,B2,477.0,631.9517997888236
+logvar_only,GradientBoosting,B2_01,B2,491.0,581.4043785345992
+logvar_only,GradientBoosting,B2_02,B2,424.0,627.9433204165102
+logvar_only,GradientBoosting,B2_03,B2,499.0,631.9517997888236
+logvar_only,GradientBoosting,B2_04,B2,444.0,581.4043785345992
+logvar_only,GradientBoosting,B2_05,B2,416.0,581.4043785345992
+logvar_only,GradientBoosting,B2_06,B2,393.0,640.0898552752304
+logvar_only,GradientBoosting,B2_07,B2,777.0,983.8695429828455
+logvar_only,GradientBoosting,B2_08,B2,904.0,924.1262202452386
+logvar_only,GradientBoosting,B2_09,B2,791.0,983.8695429828455
+logvar_only,GradientBoosting,B2_10,B2,492.0,627.9433204165102
+logvar_only,GradientBoosting,B2_11,B2,449.0,631.9517997888236
+logvar_only,GradientBoosting,B2_12,B2,466.0,581.4043785345992
+logvar_only,GradientBoosting,B2_13,B2,460.0,581.4043785345992
+logvar_only,GradientBoosting,B2_14,B2,426.0,581.4043785345992
+logvar_only,GradientBoosting,B2_15,B2,396.0,631.9517997888236
+logvar_only,GradientBoosting,B2_16,B2,472.0,631.9517997888236
+logvar_only,GradientBoosting,B2_17,B2,471.0,631.9517997888236
+logvar_only,GradientBoosting,B2_18,B2,449.0,696.1875567047113
+logvar_only,GradientBoosting,B2_19,B2,392.0,581.4043785345992
+logvar_only,GradientBoosting,B2_20,B2,489.0,627.9433204165102
+logvar_only,GradientBoosting,B2_21,B2,408.0,581.4043785345992
+logvar_only,GradientBoosting,B2_24,B2,514.0,696.1875567047113
+logvar_only,GradientBoosting,B2_25,B2,493.0,640.0898552752304
+logvar_only,GradientBoosting,B2_26,B2,450.0,581.4043785345992
+logvar_only,GradientBoosting,B2_27,B2,474.0,631.9517997888236
+logvar_only,GradientBoosting,B2_28,B2,437.0,613.7010625807395
+logvar_only,GradientBoosting,B2_29,B2,452.0,631.9517997888236
+logvar_only,GradientBoosting,B2_30,B2,412.0,581.4043785345992
+logvar_only,GradientBoosting,B2_31,B2,425.0,581.4043785345992
+logvar_only,GradientBoosting,B2_32,B2,809.0,897.6237611849185
+logvar_only,GradientBoosting,B2_33,B2,1140.0,983.8695429828455
+logvar_only,GradientBoosting,B2_34,B2,1186.0,983.8695429828455
+logvar_only,GradientBoosting,B2_41,B2,442.0,581.4043785345992
+logvar_only,GradientBoosting,B2_42,B2,474.0,631.9517997888236
+logvar_only,GradientBoosting,B2_43,B2,1029.0,983.8695429828455
+logvar_only,GradientBoosting,B2_44,B2,841.0,983.8695429828455
+logvar_only,GradientBoosting,B2_45,B2,997.0,983.8695429828455
+logvar_only,GradientBoosting,B2_46,B2,503.0,631.9517997888236
+logvar_only,GradientBoosting,B3_00,B3,1009.0,983.8695429828455
+logvar_only,GradientBoosting,B3_01,B3,1063.0,983.8695429828455
+logvar_only,GradientBoosting,B3_02,B3,1267.0,983.8695429828455
+logvar_only,GradientBoosting,B3_03,B3,1115.0,904.4416360850125
+logvar_only,GradientBoosting,B3_04,B3,1048.0,983.8695429828455
+logvar_only,GradientBoosting,B3_05,B3,828.0,904.4416360850125
+logvar_only,GradientBoosting,B3_06,B3,667.0,631.9517997888236
+logvar_only,GradientBoosting,B3_07,B3,1836.0,983.8695429828455
+logvar_only,GradientBoosting,B3_08,B3,828.0,924.1262202452386
+logvar_only,GradientBoosting,B3_09,B3,1039.0,864.3727099617736
+logvar_only,GradientBoosting,B3_10,B3,1078.0,983.8695429828455
+logvar_only,GradientBoosting,B3_11,B3,817.0,848.4153497423977
+logvar_only,GradientBoosting,B3_12,B3,932.0,864.3727099617736
+logvar_only,GradientBoosting,B3_13,B3,816.0,924.1262202452386
+logvar_only,GradientBoosting,B3_14,B3,858.0,864.3727099617736
+logvar_only,GradientBoosting,B3_15,B3,876.0,864.3727099617736
+logvar_only,GradientBoosting,B3_16,B3,1638.0,983.8695429828455
+logvar_only,GradientBoosting,B3_17,B3,1315.0,983.8695429828455
+logvar_only,GradientBoosting,B3_18,B3,1146.0,983.8695429828455
+logvar_only,GradientBoosting,B3_19,B3,1155.0,983.8695429828455
+logvar_only,GradientBoosting,B3_20,B3,813.0,955.929427022676
+logvar_only,GradientBoosting,B3_21,B3,772.0,696.1875567047113
+logvar_only,GradientBoosting,B3_22,B3,1002.0,927.5268478799762
+logvar_only,GradientBoosting,B3_24,B3,825.0,897.6237611849185
+logvar_only,GradientBoosting,B3_25,B3,989.0,897.6237611849185
+logvar_only,GradientBoosting,B3_26,B3,1028.0,983.8695429828455
+logvar_only,GradientBoosting,B3_27,B3,850.0,897.6237611849185
+logvar_only,GradientBoosting,B3_28,B3,541.0,627.9433204165102
+logvar_only,GradientBoosting,B3_29,B3,858.0,955.929427022676
+logvar_only,GradientBoosting,B3_30,B3,935.0,924.1262202452386
+logvar_only,GradientBoosting,B3_31,B3,731.0,850.3094499166507
+logvar_only,GradientBoosting,B3_33,B3,1284.0,983.8695429828455
+logvar_only,GradientBoosting,B3_34,B3,1158.0,983.8695429828455
+logvar_only,GradientBoosting,B3_35,B3,1093.0,983.8695429828455
+logvar_only,GradientBoosting,B3_36,B3,923.0,983.8695429828455
+logvar_only,GradientBoosting,B3_37,B3,1390.0,983.8695429828455
+logvar_only,GradientBoosting,B3_38,B3,1935.0,983.8695429828455
+logvar_only,GradientBoosting,B3_39,B3,1156.0,983.8695429828455
+logvar_only,GradientBoosting,B3_40,B3,796.0,983.8695429828455
+logvar_only,GradientBoosting,B3_41,B3,786.0,983.8695429828455
+logvar_only,GradientBoosting,B3_42,B3,1642.0,983.8695429828455
+logvar_only,GradientBoosting,B3_43,B3,1046.0,983.8695429828455
+logvar_only,GradientBoosting,B3_44,B3,940.0,897.6237611849185
+logvar_only,GradientBoosting,B3_45,B3,1801.0,983.8695429828455

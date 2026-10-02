@@ -1,0 +1,10 @@
+구분,MAPE (%),비고
+Train (Batch 1 CV),7.07,"protocol GroupKFold(5), nested 튜닝, 29셀"
+Valid (Batch 1 Hold-out),6.26,"protocol 단위 20%, 7셀 (seed 10회 평균 6.63)"
+Test (Batch 2),25.79,39셀
+Gap (Train-Valid),-0.81,"Valid − Train, (+) : 과적합 의심"
+Gap (Valid-Test),19.53,"Test − Valid, (+) : 배치간 일반화 저하 의심"
+Gap (Target-Test),16.69,"Test − Target, Target : 원논문 9.1%"
+Test (Batch 3),14.67,44셀
+Gap (Batch2-Batch3),11.12,Batch 2 − Batch 3
+Gap (Target-Test),5.57,"Batch 3 기준, 원논문 9.1% 비교"
