@@ -13,11 +13,12 @@
 ├── study_jiwon/                   # 허지원
 │   ├── day_1_jiwon.ipynb          # Day 1: 데이터 로드, EDA 1~5, 데이터 점검, 모델 설계 전략
 │   ├── day_2_jiwon.ipynb          # Day 2: 모델 개발 및 평가
-│   ├── figures/                   # 두 노트북의 그림 (day1_F1 ~ F5: EDA 1~5, day1_M: 설계 전략, day2_10-*: 오류 분석)
+│   ├── figures/                   # 두 노트북의 그림 (day1_F1 ~ F5: Q1~Q5 배치별, day1_D: 데이터 점검, day1_M: 설계 전략, day2_10-*: 오류 분석)
 │   └── results/
 │       ├── model_performance.csv  # 성능 표 (과제 Format)
 │       ├── metrics_by_set.csv     # 보조 지표: RMSE · MAPE · bias, 기준선 대비
 │       └── predictions.csv        # 셀별 예측값
+│
 ├── study_hyeock/                  # 심혁
 │   ├── day1_hyeock.ipynb          # Day 1: EDA Q1~Q3
 │   ├── day1_deliverable_Q1-Q3.md  # Day 1 보고서 (시사점 I1 ~ I15 정의)
@@ -29,6 +30,7 @@
 │       ├── run_stability.py       # Hold-out 분할 seed 10회 안정성
 │       ├── run_final.py           # 최종 모델 평가 · 오류 분석 · 그림
 │       └── results/
+│
 ├── archive/                       # 원본 .mat (용량 문제로 git 제외)
 ├── requirements.txt
 └── README.md
@@ -47,30 +49,93 @@ pip install -r requirements.txt
 
 ## EDA
 
-- **Cycle Life 분포**
-	- 중앙값 Batch 1 858 / Batch 2 472 / Batch 3 1,006. 단수명(< 500) 비율 0% / 72% / 0%, 장수명(> 1,000) 비율 22% / 8% / 52%
-	- Batch 2의 고수명 이상치 9셀은 전부 `newstructure` 셀로, 같은 충전 정책의 기존 셀보다 수명이 1.6 ~ 2.2배
-	- 핵심 발견 : 학습 배치(Batch 1)와 테스트 배치의 수명 범위가 겹치지 않아, 범위 밖 예측(외삽)이 가능한 모델이 필요함
+Day 1 보고서(Q1 ~ Q5)의 순서를 따릅니다. 세 배치를 한 장에 모은 그림은 `study_hyeock/figures/`, 배치별 그림은 `study_jiwon/figures/`에 있습니다.
 
-- **열화 곡선 분석**
-	- 수명의 약 60%까지는 0.005 Ah / 100 cycle 안팎으로 거의 일정하다가 이후 급격히 가속 (마지막 20% 구간 속도 = 전체 평균의 약 3.4배)
-	- Knee point는 세 배치 모두 수명의 약 75 ~ 79% 지점
-	- 핵심 발견 : 100사이클 시점의 용량은 수명과 상관이 약함 (r = 0.32 / −0.28 / 0.34) → 용량 값보다 곡선 모양 기반 피처가 필요함
+### Q1. Cycle Life 분포
+- 중앙값 Batch 1 858 / Batch 2 472 / Batch 3 1,006. 단수명(< 500) 비율 0% / 72% / 0%, 장수명(> 1,000) 비율 22% / 8% / 52%
+- 같은 실험 계열인데도 분포 위치가 다름. Batch 2는 Batch 1 범위의 왼쪽 바깥에 몰려 있고(쌍봉), Batch 3는 오른쪽 꼬리(1,300 ~ 1,935)가 Batch 1 범위를 넘어감
+- 논문 분류 기준(550)으로 자르면 Batch 1의 단수명 클래스는 1셀뿐 → 분류는 학습 불가, 회귀 선택
 
-- **ΔQ(V) 곡선 분석**
-	- ΔQ(V) = Q100(V) − Q10(V)는 3.2V 근처에서 꺼지고 2.9 ~ 3.0V에서 가장 깊어짐
-	- 단수명 셀일수록 골이 깊음 (장수명 대비 1.5 ~ 2.5배)
-	- 핵심 발견 : `log_var` = log10 var(ΔQ)가 세 배치 모두 가장 강한 피처 (r = −0.87 / −0.92 / −0.76). 다만 Batch 1으로 맞춘 직선 기준 Batch 2는 수명이 약 24% 짧음
+<img src="study_hyeock/figures/F1-1_hist.png" width="49%"> <img src="study_hyeock/figures/F1-2_ratio.png" width="49%">
 
-- **충전 속도(C-rate)와 수명의 관계**
-	- Batch 1: 0→80% 평균 C-rate가 높을수록 수명이 짧음 (Spearman ρ = −0.63, p < 0.001)
-	- Batch 2·3: 모든 정책의 평균 충전 속도가 약 4.8C로 같아 평균 C-rate로는 비교 불가. 전환 SOC(Q1)가 크고 2단계 전류(C2)가 낮을수록 열화가 완만함
-	- 핵심 발견 : Batch 2의 수명 차이는 C-rate보다 셀 구조(`newstructure`) 차이에서 옴
+- **이상치** : Batch 2의 고수명 이상치 9셀은 전부 `newstructure` 셀로, 같은 충전 정책의 기존 셀보다 수명이 1.6 ~ 2.2배. Batch 1에는 `newstructure` 셀이 0개, Batch 3는 전부라 학습 데이터에는 이 효과가 없음
+- **왜 짧은가** : Batch 1에서는 0→80% 평균 충전 속도가 빠를수록 수명이 짧고(r = −0.58), 수명 하위 5셀은 초기 100사이클 최고온도가 약 0.9°C 높음 (빠른 충전 → 발열 → 열화 가속)
 
-- **추가 확인**
-	- 데이터 품질: Batch 1의 10셀은 EOL(0.88Ah)에 닿기 전에 기록이 끝나 `cycle_life`가 실제 수명보다 짧음 (중도절단). `cycle_life` 결측 10셀(Batch 2 VarCharge·SLOWCYCLE 8셀, Batch 3 EOL 미도달 2셀)은 제외
-	- 다중공선성: ΔQ 계열(`log_var`, `log_abs_min`, `log_abs_mean`)은 서로 r ≥ 0.97, VIF 수백 ~ 수천
-	- `chargetime_2_6`, IR, 온도는 배치마다 수명과의 상관 부호가 바뀜 → 배치 차이를 담은 피처
+<img src="study_hyeock/figures/F1-3_outlier.png" width="49%"> <img src="study_hyeock/figures/F1-4_why_short.png" width="49%">
+
+- **중도절단** : Batch 1의 10셀은 EOL(0.88Ah)에 닿기 전에 기록이 끝나 `cycle_life`가 실제 수명보다 짧음 → 학습 시 제외(36셀)
+- **log 변환** : 왜도 0.45 / 1.64 / 1.26 → 0.04 / 1.36 / 0.52. Batch 1·3는 거의 대칭이 되고, Batch 2는 쌍봉이라 남음 → Target = `log10(cycle_life)`
+
+<img src="study_jiwon/figures/day1_F2-1_qd_curves_B1.png" width="49%"> <img src="study_hyeock/figures/F1-5_log.png" width="49%">
+
+### Q2. 열화 곡선
+- 세 배치 모두 한동안 평평하다가 어느 시점부터 급격히 떨어짐 (비선형)
+- 100사이클 시점의 용량은 수명과 상관이 약함 (r = 0.32 / −0.28 / 0.34) → 용량 값보다 곡선 모양 기반 피처(ΔQ)가 필요함
+
+<img src="study_hyeock/figures/F2-1_qd_curves.png" width="49%"> <img src="study_hyeock/figures/F2-4_early.png" width="49%">
+
+- 수명의 약 60%까지는 0.005 Ah / 100 cycle 안팎으로 거의 일정하다가 이후 급격히 가속 (마지막 20% 구간 속도 = 전체 평균의 약 3.4배, Batch 2가 가장 가파름)
+- Knee point는 세 배치 모두 수명의 약 75 ~ 79% 지점. 다만 100사이클 이후 정보라 피처로 쓰면 누수 → 해석용으로만 사용
+
+<img src="study_hyeock/figures/F2-2_rate.png" width="49%"> <img src="study_hyeock/figures/F2-3_knee.png" width="49%">
+
+### Q3. ΔQ(V) 곡선
+- ΔQ(V) = Q100(V) − Q10(V) (`Qdlin[99] - Qdlin[9]`, 인덱스 = 사이클 − 1). 3.2V 근처에서 꺼지고 2.9 ~ 3.0V에서 가장 깊어짐
+- 골이 생기는 전압 위치는 장수명/단수명이 같고, 차이는 골의 깊이와 폭 (단수명이 장수명 대비 1.5 ~ 2.5배 깊음)
+
+<img src="study_hyeock/figures/F3-1_dq_curves.png" width="49%"> <img src="study_hyeock/figures/F3-2_long_short.png" width="49%">
+
+- `log_var` = log10 var(ΔQ)가 세 배치 모두 가장 강한 피처 (r = −0.87 / −0.92 / −0.76)
+- 다만 Batch 1으로 맞춘 직선 기준 Batch 2는 수명이 약 24% 짧음 → Batch 1만으로 학습하면 Batch 2를 과대 예측할 가능성
+
+<img src="study_hyeock/figures/F3-3_logvar.png" width="60%">
+
+- ΔQ 통계 피처 6개 중 크기 계열(`log_var`, `log_abs_min`, `log_abs_mean`)은 일관되게 강하고, `skew`·`kurtosis`는 배치마다 부호와 크기가 다름. Batch 2의 −0.92는 `newstructure` 두 군집 차이로 부풀려졌을 가능성
+
+<img src="study_jiwon/figures/day1_F3-3_dq_feature_corr_B1.png" width="32%"> <img src="study_jiwon/figures/day1_F3-3_dq_feature_corr_B2.png" width="32%"> <img src="study_jiwon/figures/day1_F3-3_dq_feature_corr_B3.png" width="32%">
+
+### Q4. 충전 조건(C-rate)과 수명
+- 프로토콜별 평균 수명 : Batch 1은 저속(3.6C · 4C · 4.4C)이 약 1,075 ~ 1,230으로 가장 길고 5.4C(80%)-5.4C, 7C·8C 계열이 짧음. Batch 2는 `newstructure` 프로토콜만 약 870 ~ 990이고 나머지는 약 400 ~ 480
+
+<img src="study_jiwon/figures/day1_F4-1_protocol_life_B1.png" width="32%"> <img src="study_jiwon/figures/day1_F4-1_protocol_life_B2.png" width="32%"> <img src="study_jiwon/figures/day1_F4-1_protocol_life_B3.png" width="32%">
+
+- 고속 충전 → 수명 단축은 Batch 1에서만 유의 (Spearman ρ = −0.63, p < 0.001). Batch 2·3는 모든 정책의 평균 충전 속도가 약 4.8C로 같아 비교 불가 (C1 기준 p = 0.739 / 0.135)
+
+<img src="study_jiwon/figures/day1_F4-2_fast_charge_B1.png" width="32%"> <img src="study_jiwon/figures/day1_F4-2_fast_charge_B2.png" width="32%"> <img src="study_jiwon/figures/day1_F4-2_fast_charge_B3.png" width="32%">
+
+- 평균 속도가 고정된 조건에서는 전환 SOC(Q1)가 크고 2단계 전류(C2)가 낮을수록 열화 곡선이 완만함
+- 핵심 발견 : Batch 2의 수명 차이는 C-rate보다 셀 구조(`newstructure`) 차이에서 옴
+
+<img src="study_jiwon/figures/day1_F4-3_charge_vs_degradation_B1.png" width="32%"> <img src="study_jiwon/figures/day1_F4-3_charge_vs_degradation_B2.png" width="32%"> <img src="study_jiwon/figures/day1_F4-3_charge_vs_degradation_B3.png" width="32%">
+
+### Q5. 상관관계와 다중공선성
+- ΔQ 계열이 세 배치 모두 상위권으로 가장 안정적인 신호. 초기 용량(`Q2`)은 상관이 약함 (0.10 / −0.20 / 0.17)
+- `chargetime_2_6`, IR, 온도는 배치마다 수명과의 상관 부호가 바뀜 (예: `chargetime_2_6` +0.72 / −0.94 / +0.60) → 배치 차이를 담은 피처
+
+<img src="study_jiwon/figures/day1_F5-1_feature_corr_B1.png" width="32%"> <img src="study_jiwon/figures/day1_F5-1_feature_corr_B2.png" width="32%"> <img src="study_jiwon/figures/day1_F5-1_feature_corr_B3.png" width="32%">
+
+- Batch 2의 1위 `chargetime_2_6`(r = −0.94)은 `newstructure` / 기존 셀 두 군집으로 완전히 나뉘고 군집 안에서는 추세가 없음
+
+<img src="study_jiwon/figures/day1_F5-2_top3_B1.png" width="32%"> <img src="study_jiwon/figures/day1_F5-2_top3_B2.png" width="32%"> <img src="study_jiwon/figures/day1_F5-2_top3_B3.png" width="32%">
+
+- ΔQ 계열(`log_var`, `log_abs_min`, `log_abs_mean`)은 서로 r ≥ 0.97, VIF 수백 ~ 수천 → 대표 피처만 선택하거나 규제 모델 필요
+
+<img src="study_jiwon/figures/day1_F5-3_multicollinearity_B1.png" width="32%"> <img src="study_jiwon/figures/day1_F5-3_multicollinearity_B2.png" width="32%"> <img src="study_jiwon/figures/day1_F5-3_multicollinearity_B3.png" width="32%">
+
+### 데이터 점검
+- `cycle_life` 결측 10셀(Batch 2 VarCharge·SLOWCYCLE 8셀, Batch 3 EOL 미도달 2셀)은 타깃이라 보간하지 않고 제외
+- 물리적으로 불가능한 값(용량 1.1Ah 셀의 2Ah 방전, Tmax 400°C, IR = 0 등)은 기록 오류로 보고 제거. 수명 말기의 용량 급락·IR 상승은 실제 열화라 유지
+
+<img src="study_jiwon/figures/day1_D_outliers_by_cycle.png" width="80%">
+
+### Day 1 모델 설계
+- 피처 선별 기준 : ① 누수 금지(사이클 2 ~ 100 또는 실험 전 값) ② 세 배치의 상관 부호가 같고 가장 약한 배치에서도 |r| ≥ 0.15 ③ |r| ≥ 0.7 중복 제거 → `log_var`, `kurtosis`, `Q1`, `slope_91_100` (VIF ≤ 1.3)
+
+<img src="study_jiwon/figures/day1_M1-1_feature_consistency.png" width="49%"> <img src="study_jiwon/figures/day1_M1-2_selected_features.png" width="49%">
+
+- Target = `log10(cycle_life)` : skew 0.89 → −0.09. 평가는 `10 ** ŷ`로 되돌려 사이클 단위로 계산
+
+<img src="study_jiwon/figures/day1_M2_target_distribution.png" width="70%">
 
 ## Modeling
 
@@ -92,6 +157,8 @@ pip install -r requirements.txt
 - 최종 모델 : **ElasticNet + `paper_discharge` 6개 피처**
 - 선택 이유 : 테스트를 보기 전에 정한 규칙으로 골랐습니다. 점수 = (Train CV MAPE + Hold-out seed 10회 평균 MAPE) / 2이고, 최저 점수와 0.5%p 안쪽이면 선형 계열을 우선합니다. GPR(6.50)과 ElasticNet(6.85)이 같은 수준이었고, Batch 2·3가 Batch 1 범위 밖이라 외삽이 가능한 선형 계열을 택했습니다.
 
+<img src="study_jiwon/figures/day2_10-5_coefficients.png" width="55%">
+
 ## 성능 결과
 
 | 구분 | | MAPE (%) | 비고 |
@@ -109,9 +176,15 @@ pip install -r requirements.txt
 - Batch 1 안에서는 원논문(9.1%)보다 낮은 오차를 냈고 과적합 징후도 없지만, Batch 2에서는 원논문보다 16.69%p 높습니다.
 - 보조 지표(`study_jiwon/results/metrics_by_set.csv`) : 최종 모델은 기준선(`log_var` 선형)보다 Batch 1(CV 7.07 vs 8.85)과 Batch 2(25.79 vs 28.56)에서 낫지만, Batch 3에서는 기준선이 더 낫습니다(12.81 vs 14.67).
 
+<img src="study_jiwon/figures/day2_10-1_parity.png" width="80%">
+
 ## 오류 분석
 - **Batch 2: 배치 전체를 길게 예측** — 기존 셀(+25.4%)과 `newstructure` 셀(+24.5%) 모두 비슷하게 과대 예측했습니다. EDA에서 본 "같은 ΔQ에서 Batch 2 수명이 약 24% 짧다"와 같은 크기입니다. 셀 5개의 실제 수명으로 오프셋만 보정해도 MAPE가 25.8% → 10.3%로 내려가므로, 셀 사이의 순서는 대체로 맞히고 있고 오차의 대부분은 배치 기준선 이동입니다.
 - **Batch 3: 학습 범위 밖 장수명 셀을 짧게 예측** — 가장 크게 틀린 셀은 Batch 1 최대 수명(1,074)보다 긴 셀이었습니다 (예: 실제 1,642 → 예측 388). 이 셀들은 ΔQ 곡선 3.2 ~ 2.9V에 0보다 위로 솟는 봉우리가 있었고, 분산 피처(`log_var`)가 이 흔들림을 "열화가 큰 셀"로 읽었습니다. 배치마다 충전 커브 시작 시점이 달라 `Qdlin`을 단순 비교하면 생기는 왜곡으로 봅니다.
+
+<img src="study_jiwon/figures/day2_10-2_error_by_group.png" width="80%">
+
+<img src="study_jiwon/figures/day2_10-4_batch3_dq_peak.png" width="80%">
 - **개선 방향** — 배치별 `Qdlin` 시작점을 맞추는 곡선 정렬 전처리, 여러 배치를 함께 학습하는 구조, 새 배치마다 일부 셀로 기준선을 보정하는 절차. 사후 실험으로 `log_var`를 빼면 Batch 1 성능은 그대로이고 Batch 3 MAPE가 14.67 → 11.27로 줄었지만, 테스트를 본 뒤의 아이디어라 후보 개선안으로만 남겼습니다.
 
 ## ESS 도메인 해석
